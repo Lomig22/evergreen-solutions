@@ -8,6 +8,11 @@
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var valueTpl = handle.getAttribute('data-valuetext') || '{n} %';
   var REST = 50;
+  /* séquence raccourcie sur mobile : le titre doit arriver vite */
+  var small = window.matchMedia('(max-width: 899px)').matches;
+  var SWEEP = small ? 1600 : 3000;
+  var DELAY = small ? 150 : 350;
+  var TITLE_AT = small ? 800 : 2600;
   var current = 100;
   var raf = null;
 
@@ -47,9 +52,9 @@
   } else {
     setSplit(100);
     setTimeout(function () {
-      animateTo(REST, 3000, function () { hero.classList.add('is-static'); });
-      setTimeout(finish, 2600);
-    }, 350);
+      animateTo(REST, SWEEP, function () { hero.classList.add('is-static'); });
+      setTimeout(finish, TITLE_AT);
+    }, DELAY);
     try { sessionStorage.setItem('gs-hero', '1'); } catch (e) {}
   }
 

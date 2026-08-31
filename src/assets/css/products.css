@@ -92,22 +92,21 @@
 .yields__tab:hover { color: var(--forest); }
 .yields__tab[aria-selected="true"] { color: var(--forest); border-color: var(--leaf); }
 .yields__rows { display: grid; gap: var(--space-5); }
-.yields__row { display: grid; grid-template-columns: minmax(6.5rem, 10rem) 1fr auto; gap: var(--space-2) var(--space-4); align-items: center; }
+.yields__row { display: grid; grid-template-columns: minmax(6.5rem, 10rem) 1fr auto auto; gap: var(--space-2) var(--space-4); align-items: center; }
 .yields__crop { font-weight: 600; color: var(--forest-900); font-size: var(--fs-small); }
 .yields__bars { display: grid; gap: 2px; min-width: 0; }
-.yields__bar { position: relative; display: flex; align-items: center; height: 1.25rem; border-start-end-radius: 4px; border-end-end-radius: 4px; min-inline-size: 3px; inline-size: var(--w); }
+.yields__bar { display: block; height: 1.125rem; border-start-end-radius: 4px; border-end-end-radius: 4px; min-inline-size: 3px; inline-size: var(--w); }
 .yields__bar--ours { background: var(--ours); }
-.yields__bar--world { background: var(--world); }
-.yields__val { position: absolute; inset-inline-start: calc(100% + 0.5rem); white-space: nowrap; font-size: var(--fs-xs); color: var(--ink-muted); font-variant-numeric: tabular-nums; }
-.yields__bar--ours .yields__val { position: static; margin-inline-start: auto; padding-inline-end: 0.5rem; color: #fff; font-weight: 600; }
-@media (max-width: 640px) { .yields__bar--ours .yields__val { color: var(--ink); padding-inline-end: 0; margin-inline-start: 0.5rem; position: static; } }
+.yields__bar--world { background: var(--world); margin-block-start: 2px; }
+.yields__vals { display: grid; gap: 2px; text-align: end; }
+.yields__val { display: block; white-space: nowrap; font-size: var(--fs-xs); line-height: 1.125rem; font-variant-numeric: tabular-nums; }
+.yields__val--ours { color: var(--ink); font-weight: 600; }
+.yields__val--world { color: var(--ink-muted); margin-block-start: 2px; }
 .yields__mult { justify-self: end; padding: 0.25rem 0.6rem; border-radius: 999px; background: var(--leaf-100); color: var(--forest); font-family: var(--font-display); font-weight: 700; font-size: 0.9375rem; white-space: nowrap; }
 .yields__note { margin-block-start: var(--space-6); font-size: var(--fs-xs); color: var(--ink-muted); max-width: 46rem; }
 @media (max-width: 640px) {
-  .yields__row { grid-template-columns: 1fr auto; }
+  .yields__row { grid-template-columns: 1fr auto auto; }
   .yields__crop { grid-column: 1 / -1; }
-  .yields__val { position: static; margin-inline-start: 0.5rem; }
-  .yields__bar { inline-size: calc(var(--w) * 0.62); }
 }
 
 /* ---------- Preuves */

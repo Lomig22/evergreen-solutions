@@ -22,10 +22,10 @@
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/assets/img/brand/favicon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/assets/img/brand/favicon-180.png">
-{{#if page.is.home}}<link rel="preload" as="image" imagesrcset="/assets/img/hero/dry-960.webp 960w, /assets/img/hero/dry-1440.webp 1440w, /assets/img/hero/dry-2048.webp 2048w" imagesizes="100vw" fetchpriority="high">
-<link rel="preload" as="image" imagesrcset="/assets/img/hero/green-960.webp 960w, /assets/img/hero/green-1440.webp 1440w, /assets/img/hero/green-2048.webp 2048w" imagesizes="100vw">
-{{/if}}<link rel="preload" href="/assets/fonts/BricolageGrotesque-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/SourceSans3-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/BricolageGrotesque-var.woff2" as="font" type="font/woff2" crossorigin>
+{{#if page.is.home}}<link rel="preload" as="image" imagesrcset="/assets/img/hero/dry-960.webp 960w, /assets/img/hero/dry-1200.webp 1200w, /assets/img/hero/dry-1440.webp 1440w, /assets/img/hero/dry-2048.webp 2048w" imagesizes="(max-width: 520px) 88vw, 100vw">
+{{/if}}
 {{#if isRtl}}<link rel="preload" href="/assets/fonts/IBMPlexSansArabic-Regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/IBMPlexSansArabic-Bold.woff2" as="font" type="font/woff2" crossorigin>
 {{/if}}<link rel="stylesheet" href="{{assets.css}}">

@@ -35,10 +35,10 @@
 
 /* Séquence d'ouverture (JS) : tout est terre, la ligne arrive de la droite, puis le titre */
 .js .hero:not(.is-static) { --split: 100%; }
-.js .hero:not(.is-titled) .hero__title-a, .js .hero:not(.is-titled) .hero__title-b { opacity: 0; transform: translateY(14px); }
+@media (min-width: 900px) { .js .hero:not(.is-titled) .hero__title-a, .js .hero:not(.is-titled) .hero__title-b { opacity: 0; transform: translateY(14px); } }
 .hero__title-a, .hero__title-b { transition: opacity var(--t-hero-title) var(--ease), transform var(--t-hero-title) var(--ease); }
 .hero__title-b { transition-delay: 320ms; }
-.js .hero:not(.is-ready) .hero__below, .js .hero:not(.is-ready) .hero__scroll { opacity: 0; }
+@media (min-width: 900px) { .js .hero:not(.is-ready) .hero__below, .js .hero:not(.is-ready) .hero__scroll { opacity: 0; } }
 .hero__below, .hero__scroll { transition: opacity var(--t-hero-title) var(--ease); }
 @media (prefers-reduced-motion: reduce) {
   .js .hero { --split: 50%; }

@@ -11,9 +11,13 @@
     <ul class="yields__rows">
       {{#each rows}}<li class="yields__row">
         <span class="yields__crop">{{label}}</span>
-        <span class="yields__bars">
-          <span class="yields__bar yields__bar--ours" style="--w:100%"><span class="yields__val">{{oursLabel}}</span></span>
-          <span class="yields__bar yields__bar--world" style="--w:{{worldPct}}%"><span class="yields__val">{{worldLabel}}</span></span>
+        <span class="yields__bars" aria-hidden="true">
+          <span class="yields__bar yields__bar--ours" style="--w:100%"></span>
+          <span class="yields__bar yields__bar--world" style="--w:{{worldPct}}%"></span>
+        </span>
+        <span class="yields__vals">
+          <span class="yields__val yields__val--ours">{{oursLabel}}</span>
+          <span class="yields__val yields__val--world">{{worldLabel}}</span>
         </span>
         <span class="yields__mult" aria-label="{{multLabel}}">{{mult}}</span>
       </li>

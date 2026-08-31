@@ -1,0 +1,1672 @@
+{
+  "site": {
+    "name": "Green Solutions"
+  },
+  "common": {
+    "skip": "Zum Inhalt springen",
+    "home": "Startseite",
+    "mainNav": "Hauptnavigation",
+    "menu": "Menü",
+    "close": "Schließen",
+    "language": "Sprache",
+    "cta": "Projekt vorstellen",
+    "ctaShort": "Projekt vorstellen",
+    "discover": "Lösungen entdecken",
+    "seeSolution": "Zur Lösung",
+    "scroll": "Scrollen",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-Mail",
+    "addressLabel": "Adresse",
+    "readMore": "Mehr erfahren",
+    "play": "Video abspielen",
+    "pause": "Pausieren"
+  },
+  "nav": {
+    "solutions": "Lösungen",
+    "allSolutions": "Alle Lösungen und das Komplettsystem",
+    "paulownia": "Paulownia",
+    "results": "Ergebnisse",
+    "company": "Das Unternehmen",
+    "contact": "Kontakt",
+    "families": [
+      {
+        "path": "/solutions/evergreen-ecosorb/",
+        "name": "EVERGREEN® & ECOSORB®",
+        "tag": "Wasser & Böden",
+        "fact": "Bis zu 70 % weniger Bewässerungswasser"
+      },
+      {
+        "path": "/solutions/ecofert/",
+        "name": "ECOFERT®",
+        "tag": "Pflanzenernährung",
+        "fact": "4 Flaschen à 140 ml für einen Hektar"
+      },
+      {
+        "path": "/solutions/napema/",
+        "name": "NAPEMA®",
+        "tag": "Biologischer Pflanzenschutz",
+        "fact": "Null toxische Rückstände, keine Wartezeit vor der Ernte"
+      },
+      {
+        "path": "/solutions/water-vital/",
+        "name": "WATER VITAL®",
+        "tag": "Wasserqualität",
+        "fact": "30 % Wasser gespart, ganz ohne Energie"
+      },
+      {
+        "path": "/paulownia/",
+        "name": "PAULOWNIA ALTIFOLIA®",
+        "tag": "Plantage & Forstwirtschaft",
+        "fact": "3 Meter Wachstum pro Jahr"
+      }
+    ]
+  },
+  "org": {
+    "description": "Green Solutions entwickelt und vertreibt disruptive Agrartechnologien: biologisch abbaubare Wasserspeicher, zertifizierte natürliche Düngemittel, biologischen Pflanzenschutz, optimiertes Bewässerungswasser und Plantagen mit Paulownia ALTIFOLIA®.",
+    "slogan": "Sie haben ein Problem. Wir haben die Lösung.",
+    "contactName": "Michel-Paul Correa",
+    "contactRole": "CEO · Leiter Internationale Geschäftsentwicklung",
+    "phone": "+33 6 44 83 55 09",
+    "phoneE164": "+33644835509",
+    "phoneDisplay": "+33 (0)6 44 83 55 09",
+    "email": "contact@evergreen-ecosorb.com",
+    "email2": "mpcinternat@gmail.com",
+    "rcs": "RCS 420 728 545 00021",
+    "address": {
+      "streetAddress": "821 chemin des Clapiers",
+      "postalCode": "83220",
+      "addressLocality": "Le Pradet",
+      "addressCountry": "FR",
+      "countryName": "Frankreich"
+    }
+  },
+  "footer": {
+    "tagline": "Disruptive Technologien für eine ökologisch intensive und umweltschonende Landwirtschaft.",
+    "signature": "Innovate · Sustain · Transform",
+    "solutionsTitle": "Lösungen",
+    "companyTitle": "Green Solutions",
+    "contactTitle": "Kontakt",
+    "legal": "Impressum",
+    "rights": "Alle Rechte vorbehalten"
+  },
+  "cta": {
+    "title": "Sie haben ein Problem. Stellen Sie es uns vor.",
+    "text": "Ihre Kultur, Ihr Land, Ihre Fläche, Ihre größte Herausforderung: Drei Minuten genügen. Michel-Paul Correa, Leiter der internationalen Geschäftsentwicklung, antwortet Ihnen persönlich.",
+    "button": "Projekt vorstellen",
+    "or": "oder rufen Sie an:"
+  },
+  "legal": {
+    "editorTitle": "Herausgeber der Website",
+    "pending": "Rechtsform, Kapital, verantwortlicher Herausgeber, Hosting-Anbieter und Datenschutzerklärung: Angaben werden von Green Solutions vor Veröffentlichung ergänzt."
+  },
+  "pages": {
+    "home": {
+      "title": "Green Solutions — Wasser sparen, Böden regenerieren, Erträge vervielfachen",
+      "description": "Biologisch abbaubare Wasserspeicher, bio-zertifizierte natürliche Düngemittel, biologischer Pflanzenschutz, optimiertes Bewässerungswasser und Paulownia ALTIFOLIA®: bewährte Agrartechnologien aus Le Pradet, im Einsatz in 60 Ländern."
+    },
+    "solutions": {
+      "title": "Unsere Lösungen — Green Solutions",
+      "description": "Fünf Technologiefamilien für Wasser, Boden, Pflanze und Landwertsteigerung: EVERGREEN® & ECOSORB®, ECOFERT®, NAPEMA®, WATER VITAL® und Paulownia ALTIFOLIA®."
+    },
+    "evergreen": {
+      "title": "EVERGREEN® & ECOSORB® — biologisch abbaubare Wasserspeicher | Green Solutions",
+      "description": "100 % biologisch abbaubare Superabsorber-Polymere: das 300-Fache ihres Gewichts an Wasser, 50 bis 70 % weniger Bewässerung, Dünger bleibt im Boden, gelockerte Böden. Wirkung 2 bis 3 Jahre."
+    },
+    "ecofert": {
+      "title": "ECOFERT® — natürliche Düngemittel, zertifiziert für den Ökolandbau | Green Solutions",
+      "description": "100 % natürliche Düngemittel auf Algenbasis, SOHISCERT-zertifiziert und zugelassen für den EU-Ökolandbau. 4 Flaschen à 140 ml pro Hektar, vertrieben in 60 Ländern."
+    },
+    "napema": {
+      "title": "NAPEMA® — natürlicher Pflanzenschutz | Green Solutions",
+      "description": "Die natürliche Alternative zu Pestiziden: präventive, kurative und systemische Wirkung, null toxische Rückstände, geschonte Bestäuber, keine Wartezeit vor der Ernte."
+    },
+    "watervital": {
+      "title": "WATER VITAL® — besseres Bewässerungswasser | Green Solutions",
+      "description": "Ein Inline-Gerät aus Edelstahl, das Wasser durch molekulare Resonanz restrukturiert: 30 % Wasser gespart, weniger Kalk und Korrosion — ganz ohne Energie und Wartung."
+    },
+    "paulownia": {
+      "title": "Paulownia ALTIFOLIA® — rentable Plantagen und Forstwirtschaft | Green Solutions",
+      "description": "Der am schnellsten wachsende Baum der Welt: 3 m pro Jahr, Holz zu 550 €/m³, rund 80.000 € Rendite pro Hektar in 6 Jahren, 5 L Wasser pro Tag, Feuerresistenz bis 426 °C."
+    },
+    "results": {
+      "title": "Ergebnisse und Belege — Green Solutions",
+      "description": "Ertragsvergleiche, gemessene Wassereinsparungen, Zertifizierungen, Versuche und Vorher-nachher-Fotos der Technologien von Green Solutions."
+    },
+    "company": {
+      "title": "Das Unternehmen — Green Solutions, Le Pradet",
+      "description": "Führung, Expertennetzwerk in über 50 Ländern, Partner und internationale Präsenz von Green Solutions, einem französischen Agrartechnologie-Unternehmen mit Sitz in Le Pradet (Var)."
+    },
+    "contact": {
+      "title": "Projekt vorstellen — Green Solutions",
+      "description": "Beschreiben Sie Ihre Kultur, Ihr Land, Ihre Fläche und Ihre größte Herausforderung: Michel-Paul Correa antwortet Ihnen persönlich."
+    },
+    "legal": {
+      "title": "Impressum — Green Solutions",
+      "description": "Impressum der Website von Green Solutions.",
+      "h1": "Impressum",
+      "lede": "Rechtliche Angaben zum Herausgeber der Website."
+    },
+    "notfound": {
+      "title": "Seite nicht gefunden — Green Solutions",
+      "description": "Diese Seite existiert nicht oder nicht mehr.",
+      "h1": "Diese Seite existiert nicht.",
+      "lede": "Der Link ist womöglich veraltet, oder die Adresse enthält einen Fehler.",
+      "back": "Zurück zur Startseite"
+    }
+  },
+  "home": {
+    "hero": {
+      "titleA": "Sie haben ein Problem.",
+      "titleB": "Wir haben die Lösung.",
+      "lead": "Bis zu 70 % weniger Bewässerungswasser, Böden, die sich regenerieren, Erträge in neuer Größenordnung. Agrartechnologien, entwickelt in Le Pradet und bereits im Einsatz in 60 Ländern.",
+      "sliderLabel": "Trockenen Boden und bewässertes Feld vergleichen",
+      "sliderValue": "{n} % trockener Boden",
+      "altDry": "Von Dürre aufgerissener Ackerboden",
+      "altGreen": "Feld mit grünen Kulturen unter Bewässerung"
+    },
+    "stats": {
+      "label": "Kennzahlen",
+      "items": [
+        {
+          "value": 300,
+          "display": "300",
+          "prefix": "",
+          "suffix": "×",
+          "label": "sein Gewicht an Wasser: So viel speichert ein Korn EVERGREEN® direkt an den Wurzeln"
+        },
+        {
+          "value": 70,
+          "display": "70",
+          "prefix": "−",
+          "suffix": " %",
+          "label": "Bewässerungswasser weniger — 50 bis 70 % je nach Kultur und Bewässerungssystem"
+        },
+        {
+          "value": 4,
+          "display": "4",
+          "prefix": "",
+          "suffix": "",
+          "label": "Flaschen à 140 ml ECOFERT® genügen, um einen Hektar zu düngen"
+        },
+        {
+          "value": 3,
+          "display": "3",
+          "prefix": "",
+          "suffix": " m",
+          "label": "Wachstum pro Jahr: Paulownia ALTIFOLIA® erreicht 13 bis 15 m in 6 bis 8 Jahren"
+        },
+        {
+          "value": 60,
+          "display": "60",
+          "prefix": "",
+          "suffix": "",
+          "label": "Länder setzen die ECOFERT®-Düngemittel bereits ein"
+        }
+      ]
+    },
+    "problems": {
+      "title": "Vier Probleme. Auf allen Kontinenten dieselben.",
+      "intro": "Wasserstress, ausgelaugte Böden, schmelzende Margen, Ernährungsunsicherheit: Die Landwirte, die wir in Frankreich, Afrika, im Nahen Osten oder in Lateinamerika treffen, beschreiben dieselben Schwierigkeiten.",
+      "items": [
+        {
+          "icon": "drop",
+          "title": "Das Wasser fehlt",
+          "text": "Für ein Kilo Getreide braucht es 1.000 Liter Wasser — und die Bewässerungsauflagen nehmen zu."
+        },
+        {
+          "icon": "root",
+          "title": "Der Boden laugt aus",
+          "text": "Bis zu 85 % des Düngers werden ausgewaschen, bevor die Pflanze ihn nutzen kann. Böden verdichten sich und verlieren ihr mikrobielles Leben."
+        },
+        {
+          "icon": "euro",
+          "title": "Die Marge schmilzt",
+          "text": "Betriebsmittel werden immer teurer und bringen keinen Ertragszuwachs mehr. Die Kosten steigen, die Ernten stagnieren."
+        },
+        {
+          "icon": "wheat",
+          "title": "Mehr Menschen wollen ernährt werden",
+          "text": "800 Millionen Menschen hungern Tag für Tag, und die Ackerfläche der Welt wächst nicht mehr."
+        }
+      ],
+      "outro": "Jede unserer fünf Technologien beantwortet mindestens zwei dieser Probleme. Zusammen beantworten sie alle vier."
+    },
+    "families": {
+      "title": "Fünf Antworten. Ein System.",
+      "intro": "Praxiserprobte Produkte, einfach anzuwenden mit Standard-Landtechnik, kompatibel mit dem Ökolandbau.",
+      "items": [
+        {
+          "path": "/solutions/evergreen-ecosorb/",
+          "img": "evergreen",
+          "tag": "Wasser & Böden",
+          "name": "EVERGREEN® & ECOSORB®",
+          "title": "Das Wasser bleibt dort, wo die Wurzeln sind.",
+          "text": "100 % biologisch abbaubare Wasserspeicher, die Regen- oder Bewässerungswasser aufnehmen, es als Gel direkt an den Wurzeln speichern und wieder abgeben, wenn die Pflanze es braucht.",
+          "value": "300×",
+          "valueLabel": "sein Gewicht an Wasser",
+          "link": "Zu EVERGREEN® & ECOSORB®",
+          "alt": "EVERGREEN®-Wasserspeicher-Granulat in einer Hand über einem Kulturboden"
+        },
+        {
+          "path": "/solutions/ecofert/",
+          "img": "ecofert",
+          "tag": "Pflanzenernährung",
+          "name": "ECOFERT®",
+          "title": "Mehr ernten, mit viel weniger.",
+          "text": "100 % natürliche Düngemittel auf Algenbasis, SOHISCERT-zertifiziert und zugelassen für den EU-Ökolandbau. Erträge vervielfacht, Betriebsmittelkosten halbiert.",
+          "value": "4",
+          "valueLabel": "Flaschen à 140 ml für 1 Hektar",
+          "link": "Zu ECOFERT®",
+          "alt": "ECOFERT®-Kanister auf einem Baumstamm vor einem Feld"
+        },
+        {
+          "path": "/solutions/napema/",
+          "img": "napema",
+          "tag": "Biologischer Pflanzenschutz",
+          "name": "NAPEMA®",
+          "title": "Kulturen schützen, ohne das Feld zu vergiften.",
+          "text": "Die natürliche Alternative zu Pestiziden: präventiv, kurativ und systemisch gegen Insekten, Pilze und Schädlinge. Bestäuber und Regenwürmer dagegen bleiben.",
+          "value": "0",
+          "valueLabel": "toxische Rückstände in Boden, Luft und Wasser",
+          "link": "Zu NAPEMA®",
+          "alt": "Marienkäfer auf einem grünen Blatt"
+        },
+        {
+          "path": "/solutions/water-vital/",
+          "img": "watervital",
+          "tag": "Wasserqualität",
+          "name": "WATER VITAL®",
+          "title": "Wasser, das besser arbeitet — ganz ohne Energie.",
+          "text": "Ein Inline-Gerät aus Edelstahl, das Bewässerungswasser durch molekulare Resonanz restrukturiert. Weniger Kalk, weniger Korrosion, widerstandsfähigere Pflanzen. Ohne Energie, ohne Wartung, ohne Verbrauchsmaterial.",
+          "value": "−30 %",
+          "valueLabel": "Bewässerungswasser, mit Sofortwirkung",
+          "link": "Zu WATER VITAL®",
+          "alt": "Kreisberegnungsanlage bewässert ein Feld"
+        },
+        {
+          "path": "/paulownia/",
+          "img": "paulownia",
+          "tag": "Plantage & Forstwirtschaft",
+          "name": "PAULOWNIA ALTIFOLIA®",
+          "title": "Der Baum, der drei Meter pro Jahr wächst.",
+          "text": "Eine Hybride, selektiert für heiße, trockene Regionen: Edelholz, 5 Liter Wasser pro Tag, Feuerresistenz. Jede Pflanze wird mit ihrer Dosis EVERGREEN® und ECOFERT® geliefert.",
+          "value": "80.000 €",
+          "valueLabel": "Rendite pro Hektar in 6 Jahren",
+          "link": "Zum Paulownia-Projekt",
+          "alt": "Sechs Jahre alte Plantage mit Paulownia ALTIFOLIA®"
+        }
+      ]
+    },
+    "system": {
+      "title": "Ein System — vom Wasser bis zur Ernte.",
+      "intro": "Jede Technologie funktioniert für sich allein. Zusammen decken sie den gesamten Kulturzyklus ab: das Wasser, den Boden, die Pflanze, ihren Schutz und die Wertsteigerung des Landes.",
+      "steps": [
+        {
+          "icon": "drop",
+          "name": "EVERGREEN®",
+          "verb": "hält das Wasser im Boden"
+        },
+        {
+          "icon": "leaf",
+          "name": "ECOFERT®",
+          "verb": "ernährt die Pflanze"
+        },
+        {
+          "icon": "shield",
+          "name": "NAPEMA®",
+          "verb": "schützt ohne Rückstände"
+        },
+        {
+          "icon": "water",
+          "name": "WATER VITAL®",
+          "verb": "optimiert das Bewässerungswasser"
+        },
+        {
+          "icon": "tree",
+          "name": "PAULOWNIA",
+          "verb": "steigert den Wert des Landes"
+        }
+      ],
+      "quote": "Jede Pflanze von Paulownia ALTIFOLIA® wird mit ihrem EVERGREEN®-Wasserspeicher und ihrer Dosis ECOFERT® verkauft: eine Komplettlösung für die Aufforstung und gegen die Wüstenbildung.",
+      "link": "Das Komplettsystem ansehen"
+    },
+    "focus": {
+      "title": "Ein rentabler Wald in sechs Jahren.",
+      "text": "Rekordwachstum, Holz zu 550 €/m³, 825 Bäume pro Hektar, erste Ernte schon ab dem dritten Jahr. Und ein Baum, der sich erst bei 426 °C entzündet: eine natürliche Barriere gegen Waldbrände.",
+      "stats": [
+        {
+          "value": "3 m",
+          "label": "Wachstum pro Jahr"
+        },
+        {
+          "value": "80.000 €",
+          "label": "pro Hektar in 6 Jahren"
+        },
+        {
+          "value": "426 °C",
+          "label": "Entzündungstemperatur"
+        }
+      ],
+      "button": "Zum Paulownia-Projekt",
+      "alt": "Allee einer ausgewachsenen Plantage mit Paulownia ALTIFOLIA®"
+    },
+    "partners": {
+      "title": "Sie arbeiten mit uns.",
+      "text": "Forschungsinstitute, Genossenschaften, Händler und Projektträger — von Frankreich bis Südafrika, von Brasilien bis zum Persischen Golf.",
+      "link": "Das Unternehmen und sein Netzwerk entdecken"
+    }
+  },
+  "relatedTitle": "Weitere Lösungen",
+  "yieldsUi": {
+    "legendLabel": "Legende",
+    "ours": "Mit ECOFERT®",
+    "world": "Weltweiter Durchschnitt",
+    "tabsLabel": "Kulturgruppen",
+    "note": "Lesehilfe: Für jede Kultur dient der grüne Balken (Ertrag mit ECOFERT®) als Referenz, der blaue Balken zeigt den weltweiten Durchschnitt im Verhältnis — die Skalen sind zwischen den Kulturen nicht vergleichbar, die exakten Werte sind angegeben. Bei Spannen wird der Multiplikator auf das obere Ende der Spanne berechnet. Zahlen laut Green Solutions; weltweiter Weizendurchschnitt: FAO 2022."
+  },
+  "yieldsData": {
+    "groups": [
+      {
+        "name": "Getreide",
+        "rows": [
+          {
+            "label": "Weizen",
+            "oursLabel": "10.500 kg/ha",
+            "worldLabel": "3.400",
+            "worldPct": 32,
+            "mult": "×3,1",
+            "multLabel": "das 3,1-Fache des weltweiten Durchschnitts"
+          },
+          {
+            "label": "Gerste",
+            "oursLabel": "11.500 kg/ha",
+            "worldLabel": "3.100",
+            "worldPct": 27,
+            "mult": "×3,7",
+            "multLabel": "das 3,7-Fache des weltweiten Durchschnitts"
+          },
+          {
+            "label": "Reis",
+            "oursLabel": "14.500 kg/ha",
+            "worldLabel": "4.700",
+            "worldPct": 32,
+            "mult": "×3,1",
+            "multLabel": "das 3,1-Fache des weltweiten Durchschnitts"
+          },
+          {
+            "label": "Mais",
+            "oursLabel": "22.000 kg/ha",
+            "worldLabel": "6.000",
+            "worldPct": 27,
+            "mult": "×3,7",
+            "multLabel": "das 3,7-Fache des weltweiten Durchschnitts"
+          },
+          {
+            "label": "Hafer",
+            "oursLabel": "11.200 kg/ha",
+            "worldLabel": "2.500",
+            "worldPct": 22,
+            "mult": "×4,5",
+            "multLabel": "das 4,5-Fache des weltweiten Durchschnitts"
+          }
+        ]
+      },
+      {
+        "name": "Obst & Gemüse",
+        "rows": [
+          {
+            "label": "Tomate",
+            "oursLabel": "215.000 kg/ha",
+            "worldLabel": "38.000",
+            "worldPct": 18,
+            "mult": "×5,7",
+            "multLabel": "das 5,7-Fache des weltweiten Durchschnitts"
+          },
+          {
+            "label": "Kartoffel",
+            "oursLabel": "110.000 kg/ha",
+            "worldLabel": "20.800",
+            "worldPct": 19,
+            "mult": "×5,3",
+            "multLabel": "das 5,3-Fache des weltweiten Durchschnitts"
+          },
+          {
+            "label": "Aubergine",
+            "oursLabel": "92.000 kg/ha",
+            "worldLabel": "27.000",
+            "worldPct": 29,
+            "mult": "×3,4",
+            "multLabel": "das 3,4-Fache des weltweiten Durchschnitts"
+          },
+          {
+            "label": "Avocado",
+            "oursLabel": "53.000 kg/ha",
+            "worldLabel": "8.000",
+            "worldPct": 15,
+            "mult": "×6,6",
+            "multLabel": "das 6,6-Fache des weltweiten Durchschnitts"
+          },
+          {
+            "label": "Zitrone",
+            "oursLabel": "83.000 kg/ha",
+            "worldLabel": "17.000",
+            "worldPct": 20,
+            "mult": "×4,9",
+            "multLabel": "das 4,9-Fache des weltweiten Durchschnitts"
+          }
+        ]
+      },
+      {
+        "name": "Obstbäume",
+        "rows": [
+          {
+            "label": "Oliven",
+            "oursLabel": "415 kg/Baum",
+            "worldLabel": "20-40",
+            "worldPct": 10,
+            "mult": "×10",
+            "multLabel": "das 10-Fache des oberen Endes der weltweiten Spanne"
+          },
+          {
+            "label": "Mandarine",
+            "oursLabel": "145 kg/Baum",
+            "worldLabel": "40-60",
+            "worldPct": 41,
+            "mult": "×2,4",
+            "multLabel": "das 2,4-Fache des oberen Endes der weltweiten Spanne"
+          },
+          {
+            "label": "Orangen",
+            "oursLabel": "80.000 kg/ha",
+            "worldLabel": "25.000-35.000",
+            "worldPct": 44,
+            "mult": "×2,3",
+            "multLabel": "das 2,3-Fache des oberen Endes der weltweiten Spanne"
+          },
+          {
+            "label": "Trauben",
+            "oursLabel": "44.000 kg/ha",
+            "worldLabel": "10.000-15.000",
+            "worldPct": 34,
+            "mult": "×2,9",
+            "multLabel": "das 2,9-Fache des oberen Endes der weltweiten Spanne"
+          }
+        ]
+      },
+      {
+        "name": "Marktfrüchte",
+        "rows": [
+          {
+            "label": "Raps",
+            "oursLabel": "7.400 kg/ha",
+            "worldLabel": "2.000-2.500",
+            "worldPct": 34,
+            "mult": "×3",
+            "multLabel": "das 3-Fache des oberen Endes der weltweiten Spanne"
+          },
+          {
+            "label": "Kaffee",
+            "oursLabel": "66.000 kg/ha",
+            "worldLabel": "700-2.000",
+            "worldPct": 3,
+            "mult": "×33",
+            "multLabel": "das 33-Fache des oberen Endes der weltweiten Spanne"
+          },
+          {
+            "label": "Zuckerrohr",
+            "oursLabel": "86.000 kg/ha",
+            "worldLabel": "70.000",
+            "worldPct": 81,
+            "mult": "×1,2",
+            "multLabel": "das 1,2-Fache des weltweiten Durchschnitts"
+          },
+          {
+            "label": "Zuckerrübe",
+            "oursLabel": "110.000 kg/ha",
+            "worldLabel": "60.000",
+            "worldPct": 55,
+            "mult": "×1,8",
+            "multLabel": "das 1,8-Fache des weltweiten Durchschnitts"
+          }
+        ]
+      }
+    ]
+  },
+  "solutionsPage": {
+    "h1": "Fünf Antworten. Ein System.",
+    "lede": "Vom Wasser zum Boden, von der Pflanze zur Wertsteigerung des Landes: Jede Lösungsfamilie löst ein konkretes Problem — und sie verstärken einander."
+  },
+  "products": {
+    "evergreen": {
+      "path": "/solutions/evergreen-ecosorb/",
+      "tag": "Wasser & Böden",
+      "name": "EVERGREEN® & ECOSORB®",
+      "tagline": "Das Wasser bleibt dort, wo die Wurzeln sind.",
+      "lede": "100 % biologisch abbaubare Superabsorber-Polymere auf Kaliumbasis — ohne Natrium und Acrylamid. Bei der Pflanzung ins Substrat gemischt, nehmen sie Regen- oder Bewässerungswasser auf, speichern es als Gel und geben es nach dem Bedarf der Pflanze wieder ab.",
+      "hero": {
+        "value": "300×",
+        "label": "sein Gewicht an Wasser, gespeichert als Gel in der Wurzelzone",
+        "videoSrc": "/assets/video/evergreen-hydrogel.mp4",
+        "poster": "/assets/video/evergreen-hydrogel.webp",
+        "w": 1060,
+        "h": 600,
+        "alt": "Demonstration im Becherglas: Wasserspeicher-Granulat quillt bei Wasserkontakt zu Gel auf"
+      },
+      "problem": {
+        "title": "Das Problem: Das Wasser verschwindet — und der Dünger gleich mit.",
+        "text": "Bewässerungswasser verdunstet oder versickert außer Reichweite der Wurzeln, und der Großteil des Düngers wird ausgewaschen, bevor die Pflanze ihn nutzen kann. Das Ergebnis: gestresste Kulturen, verdichtete Böden und steigende Rechnungen für Wasser und Betriebsmittel.",
+        "value": "85 %",
+        "valueLabel": "des konventionellen Düngers können ausgewaschen werden, bevor er wirkt"
+      },
+      "how": {
+        "title": "So funktioniert es",
+        "img": "/assets/img/products/evergreen-how",
+        "w": 1400,
+        "h": 1458,
+        "alt": "Junge Pflanze, deren Wurzeln sich im Wasserspeicher-Gel verankern, im Bodenquerschnitt",
+        "caption": "Die Wurzeln verflechten sich mit den Gelkörnern und ziehen daraus Wasser nach Bedarf.",
+        "steps": [
+          {
+            "title": "Das trockene Korn saugt auf",
+            "text": "Bei Kontakt mit Regen- oder Bewässerungswasser nimmt jedes Gramm Wasserspeicher bis zu 300 ml Wasser auf."
+          },
+          {
+            "title": "Das Gel speichert",
+            "text": "Das Wasser wird als Gel in der Wurzelzone gespeichert — geschützt vor Verdunstung und Auswaschung."
+          },
+          {
+            "title": "Die Pflanze bedient sich",
+            "text": "In den ersten drei Wochen normal bewässern: Die Wurzeln verflechten sich mit den gesättigten Körnern und versorgen sich anschließend daraus nach Bedarf."
+          },
+          {
+            "title": "Das Korn baut sich sauber ab",
+            "text": "Innerhalb von 2 bis 3 Jahren (EVERGREEN®) bzw. 1 bis 2 Jahren (ECOSORB®) zerfällt das Polymer in C, H₂O, O₂ und K — die als Nährstoffe genutzt werden. Sonst bleibt nichts im Boden zurück."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Was sich dadurch ändert",
+        "items": [
+          {
+            "value": "−50 bis −70 %",
+            "title": "Bewässerungswasser",
+            "text": "Je nach Kultur und Bewässerungssystem."
+          },
+          {
+            "value": "−50 bis −80 %",
+            "title": "Bewässerungshäufigkeit",
+            "text": "Das gespeicherte Wasser bleibt zwischen zwei Wassergaben verfügbar."
+          },
+          {
+            "value": "+95 %",
+            "title": "Anwachsrate beim Umpflanzen",
+            "text": "Der Wasserstress des Umpflanzens entfällt; verbleibende Verluste gehen auf nicht lebensfähige Pflanzen oder Tiere zurück."
+          },
+          {
+            "icon": "seed",
+            "title": "Der Dünger bleibt auf dem Feld",
+            "text": "Gelöste Nährstoffe werden vom Gel gebunden und bleiben für die Kultur verfügbar, statt Grundwasser und Flüsse zu belasten."
+          },
+          {
+            "icon": "root",
+            "title": "Ein lockerer, lebendiger Boden",
+            "text": "Das Quellen und Schrumpfen der Körner lockert den Boden; die konstante Feuchte fördert Mikrofauna und Mikroflora."
+          },
+          {
+            "value": "2-3 Jahre",
+            "title": "Wirkung pro Anwendung",
+            "text": "Eine einzige Einarbeitung ins Substrat, Vorteile über mehrere Kulturzyklen."
+          }
+        ]
+      },
+      "apps": {
+        "title": "Wo einsetzen",
+        "items": [
+          "Konventionelle und ökologische Landwirtschaft",
+          "Baumschulen & Gartenbau",
+          "Rasen & Golfplätze",
+          "Obstbau",
+          "Aufforstung & Agroforstwirtschaft",
+          "Landschaftsbau & Kommunen",
+          "Gärten & Privatbereich"
+        ],
+        "note": "Ein gemessenes Beispiel: Ein Pflanzkübel, der 80 Liter Wasser pro Woche brauchte, kommt jetzt mit 50 Litern alle drei Monate aus."
+      },
+      "compare": {
+        "title": "Im Vergleich zu anderen Wasserspeichern",
+        "intro": "Nicht alle Wasserspeicher-Produkte sind gleichwertig: Manche enthalten Acrylamide, deren Verkauf wegen ihrer Toxizität verboten ist, andere Natrium, das die Wurzeln erstickt und verbrennt.",
+        "head": [
+          "",
+          "EVERGREEN®",
+          "ECOSORB®",
+          "Acrylamid-Superabsorber",
+          "Natrium-Superabsorber",
+          "Organische Absorber"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Basis",
+              "Kalium",
+              "Kalium + Maisstärke",
+              "Acrylamid + Polyacrylat + Aluminium",
+              "Natrium",
+              "Zitrusschalen"
+            ]
+          },
+          {
+            "cells": [
+              "Wirkungsdauer",
+              "2-3 Jahre",
+              "1-2 Jahre",
+              "4-5 Jahre",
+              "5 Jahre",
+              "6 Monate"
+            ]
+          },
+          {
+            "cells": [
+              "Speicherleistung (× Trockenvolumen)",
+              "300-400×",
+              "300×",
+              "500×",
+              "200×",
+              "60×"
+            ]
+          },
+          {
+            "cells": [
+              "Unbedenklichkeit",
+              "Natürliche Elemente, unschädlich für Pflanzen und Böden",
+              "Natürliche Elemente, unschädlich für Pflanzen und Böden",
+              "Toxisch — Verkauf inzwischen verboten",
+              "Erstickt und verbrennt die Wurzeln; nur für Nicht-Lebensmittelkulturen",
+              "Unschädlich, aber sehr kurze Wirkung"
+            ]
+          }
+        ],
+        "note": "Daten: Broschüre EVERGREEN® & ECOSORB®, Green Solutions."
+      },
+      "faq": {
+        "title": "Häufige Fragen",
+        "items": [
+          {
+            "q": "Muss ich Technik oder Praxis umstellen?",
+            "a": "Nein. Das Produkt wird bei der Pflanzung ins Substrat gemischt, von Hand oder maschinell, je nach Ausstattung des Betriebs. Ein einfaches Protokoll und präzise Dosierungen je Kultur werden mitgeliefert."
+          },
+          {
+            "q": "Ist es mit dem Ökolandbau vereinbar?",
+            "a": "Ja. Die Formulierungen auf Basis von Kalium und Maisstärke sind natürliche Elemente, unbedenklich für Pflanzen, Boden und Bodenleben — sie erleichtern sogar den Umstieg vom konventionellen zum zertifizierten Ökolandbau."
+          },
+          {
+            "q": "Was passiert mit dem Produkt im Boden?",
+            "a": "Es baut sich mit 20 bis 25 % pro Jahr zu C, H₂O, O₂ und K ab — durch Mikrofauna, Mikroflora und Pilze. Seine Moleküle sind zu groß, um von Pflanzen aufgenommen zu werden: Kein Bestandteil gelangt ins Pflanzengewebe."
+          },
+          {
+            "q": "EVERGREEN® oder ECOSORB®: Welches wählen?",
+            "a": "EVERGREEN® (Kaliumbasis) wirkt 2 bis 3 Jahre, ECOSORB® (Kalium + Maisstärke) 1 bis 2 Jahre. Die Wahl — und die Körnung — hängen von Boden, Kultur und Zykluslänge ab; wir bestimmen sie gemeinsam mit Ihnen."
+          },
+          {
+            "q": "Muss ich weiter bewässern?",
+            "a": "Ja, in den ersten drei Wochen normal, bis sich die Körner gesättigt und die Wurzeln darin verankert haben. Danach sinkt die Bewässerungshäufigkeit um 50 bis 80 %."
+          },
+          {
+            "q": "In welchen Böden wirkt es?",
+            "a": "In allen Bodentypen, auch in Sand, wo die Wasserverschwendung am größten ist. Die Körner nehmen Wasser während des gesamten Zyklus immer wieder auf, speichern es und geben es ab."
+          }
+        ]
+      }
+    },
+    "ecofert": {
+      "path": "/solutions/ecofert/",
+      "tag": "Pflanzenernährung",
+      "name": "ECOFERT®",
+      "tagline": "Mehr ernten, mit viel weniger.",
+      "lede": "100 % natürliche Düngemittel auf Algenbasis, formuliert mit Nanotechnologie und entwickelt mit Beiträgen zweier Nobelpreisträger — Severo Ochoa und François Jacob. SOHISCERT-zertifiziert, zugelassen für den EU-Ökolandbau (ES-ECO-002-AN), vertrieben in 60 Ländern.",
+      "hero": {
+        "value": "4 × 140 ml",
+        "label": "genügen, um einen ganzen Hektar zu düngen",
+        "videoSrc": "/assets/video/ecofert-bidon.mp4",
+        "poster": "/assets/video/ecofert-bidon.webp",
+        "w": 478,
+        "h": 780,
+        "portrait": true,
+        "alt": "ECOFERT®-Kanister auf einem Baumstamm vor einem Feld"
+      },
+      "problem": {
+        "title": "Das Problem: Dünger, der vom Regen abhängt.",
+        "text": "Konventionelle Dünger brauchen viel Wasser, um gelöst und aufgenommen zu werden. Bei Trockenheit bleiben diese teuren Betriebsmittel wirkungslos; bei Starkregen werden sie ausgewaschen. In beiden Fällen ist das Geld weg, ohne die Kultur zu ernähren.",
+        "value": "−50 %",
+        "valueLabel": "Betriebsmittelkosten im Vergleich zu konventionellen Düngeprogrammen"
+      },
+      "how": {
+        "title": "So funktioniert es",
+        "img": "/assets/img/products/ecofert-how",
+        "w": 1400,
+        "h": 1400,
+        "alt": "Ausbringung von ECOFERT® per Spritzung auf einem Feld",
+        "caption": "Ausbringung mit der Standard-Feldspritze, ohne Spezialausrüstung.",
+        "steps": [
+          {
+            "title": "Nanometrische Partikel",
+            "text": "Die Formulierung im Nanomaßstab wird schnell aufgenommen — über Blatt und Wurzel, selbst wenn Wasser fehlt."
+          },
+          {
+            "title": "Stabile Ernährung in der Zelle",
+            "text": "Die Nährstoffe bleiben in den Pflanzenzellen konstant, auch während der Zellteilung — Schluss mit dem Wechsel aus Überfluss und Mangel."
+          },
+          {
+            "title": "NPK 7-7-9 + Aminosäuren",
+            "text": "Stickstoff 7 %, Phosphor 7 %, Kalium 9 % und ein komplettes Spektrum essenzieller Aminosäuren: Methionin, Glycin, Phenylalanin, Leucin, Prolin, Threonin, Lysin, Arginin …"
+          },
+          {
+            "title": "Vier Anwendungsformen",
+            "text": "Saatgutbehandlung, Blattspritzung, Bodenapplikation oder Einspeisung in die Bewässerung. Kompatibel mit den meisten Pflanzenschutzmitteln."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Was sich dadurch ändert",
+        "items": [
+          {
+            "value": "×3 bis ×6",
+            "title": "Ertrag je nach Kultur",
+            "text": "Details Kultur für Kultur siehe unten."
+          },
+          {
+            "icon": "leaf",
+            "title": "Optimierte Blüte und Ernte",
+            "text": "Angeregte Blüte, weniger Blüten- und Fruchtfall, frühere Ernte."
+          },
+          {
+            "icon": "badge",
+            "title": "Höhere Qualität",
+            "text": "Festere Früchte, längere Haltbarkeit, intensiverer Geschmack, höherer Zuckergehalt (Brix)."
+          },
+          {
+            "icon": "shield",
+            "title": "Mehr Widerstandskraft",
+            "text": "Bessere Resistenz gegen Trockenheit, Frost, Krankheiten und biotische Angriffe."
+          },
+          {
+            "icon": "root",
+            "title": "Der Boden wird reicher",
+            "text": "Stickstoff, Phosphor, Kalium, Spurenelemente und organische Bodensubstanz nehmen messbar zu."
+          },
+          {
+            "value": "0",
+            "title": "Nitrate, Nitrite, Hormone",
+            "text": "Ohne chemische Stimulanzien; keine Rückstände im Boden oder in den Pflanzen."
+          }
+        ]
+      },
+      "apps": {
+        "title": "Wo einsetzen",
+        "items": [
+          "Ackerbau",
+          "Gemüsebau",
+          "Obstbau & Zitrusfrüchte",
+          "Weinbau",
+          "Marktfrüchte",
+          "Saatgutbehandlung",
+          "Blattspritzung",
+          "Bodenapplikation",
+          "Einspeisung in die Bewässerung"
+        ],
+        "note": "Internationale Erfolgsbilanz: zahlreiche Preise bei Agrarwettbewerben, darunter ein Rekordkürbis von 631,60 kg (Spanien, 2016)."
+      },
+      "yields": {
+        "title": "Die Erträge, Kultur für Kultur",
+        "intro": "Von Green Solutions gemeldete Erträge mit ECOFERT®, verglichen mit den weltweiten Durchschnitten."
+      },
+      "proofs": {
+        "title": "Zertifizierungen & Belege",
+        "items": [
+          {
+            "img": "/assets/img/certs/sohiscert.png",
+            "imgAlt": "SOHISCERT-Logo",
+            "w": 220,
+            "h": 190,
+            "title": "SOHISCERT-zertifiziert",
+            "text": "Vollständige Öko-Zertifizierung für den biologischen Landbau."
+          },
+          {
+            "img": "/assets/img/certs/eu-bio.png",
+            "imgAlt": "Logo EU-Ökolandbau, ES-ECO-002-AN",
+            "w": 202,
+            "h": 188,
+            "title": "EU-Ökolandbau",
+            "text": "Zugelassen in der gesamten Europäischen Union — ES-ECO-002-AN."
+          },
+          {
+            "title": "60 Länder",
+            "text": "In 60 Ländern und unter allen Klimabedingungen erfolgreich vertrieben und eingesetzt."
+          },
+          {
+            "title": "Zwei Nobelpreisträger",
+            "text": "Entwickelt mit Beiträgen von Prof. Severo Ochoa (Spanien) und Prof. François Jacob (Frankreich)."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Häufige Fragen",
+        "items": [
+          {
+            "q": "Kann es meinen Dünger vollständig ersetzen?",
+            "a": "Ja. ECOFERT® liefert alle essenziellen Elemente und kann konventionelle Dünger ersetzen. Boden- und Pflanzenanalysen vor der Anwendung und nach der Ernte bestätigen das Saison für Saison."
+          },
+          {
+            "q": "Wie wird dosiert?",
+            "a": "Vier Flaschen à 140 ml, in Wasser verdünnt, genügen für einen ganzen Hektar — ohne zusätzlichen Dünger und ohne Spezialausrüstung."
+          },
+          {
+            "q": "Ist es wirklich im Ökolandbau einsetzbar?",
+            "a": "Ja: SOHISCERT-zertifiziert und zugelassen für den Ökolandbau in der EU (ES-ECO-002-AN). Ohne Nitrate, Nitrite, Hormone und chemische Stimulanzien."
+          },
+          {
+            "q": "Was passiert bei Dürre oder Gewitter?",
+            "a": "Die Formulierung bleibt bei geringer Wasserverfügbarkeit ebenso wirksam wie bei Starkregen — genau das unterscheidet sie von konventionellen Düngern, die ohne Wasser wirkungslos bleiben und bei zu viel Wasser ausgewaschen werden."
+          },
+          {
+            "q": "Ist es mit meinen Behandlungen kompatibel?",
+            "a": "Es lässt sich mit den meisten Pflanzenschutzmitteln mischen und fügt sich in Ihr bestehendes Programm ein."
+          },
+          {
+            "q": "Bei welchen Kulturen wirkt es?",
+            "a": "Bei allen: Getreide, Obst und Gemüse, Obstbäume, Reben, Marktfrüchte — unabhängig von Kulturart sowie Boden- und Klimabedingungen."
+          }
+        ]
+      }
+    },
+    "napema": {
+      "path": "/solutions/napema/",
+      "tag": "Biologischer Pflanzenschutz",
+      "name": "NAPEMA®",
+      "tagline": "Kulturen schützen, ohne das Feld zu vergiften.",
+      "lede": "Eine disruptive natürliche Alternative zu chemischen Pestiziden: präventive, kurative und systemische Wirkung gegen Schadinsekten, Krankheiten, Pilze und Schädlinge — unter Schonung von Bestäubern, Regenwürmern und Nützlingen.",
+      "hero": {
+        "value": "0 %",
+        "label": "toxische Rückstände in Boden, Luft und Wasser",
+        "img": "/assets/img/products/napema-hero",
+        "w": 1400,
+        "h": 1050,
+        "alt": "Landwirt bringt NAPEMA® per Spritzung auf seine Kulturen aus"
+      },
+      "problem": {
+        "title": "Das Problem: Chemie am Limit.",
+        "text": "Wachsende Resistenzen der Schädlinge, toxische Rückstände in Böden und Ernten, regulatorischer Druck: Synthetische Lösungen stoßen an ihre Grenzen. Und die integrierte biologische Bekämpfung — schonend, aber aufwendig — hängt von den Zyklen der Nützlinge und vom Klima ab.",
+        "value": "+15 %/Jahr",
+        "valueLabel": "Wachstum des weltweiten Markts für biologischen Pflanzenschutz"
+      },
+      "how": {
+        "title": "So funktioniert es",
+        "img": "/assets/img/products/napema-how",
+        "w": 1400,
+        "h": 1400,
+        "alt": "Kräftige junge Pflanze in lebendigem Boden",
+        "caption": "Eine doppelte Wirkung: die Pflanze stärken und Krankheitserreger eliminieren.",
+        "steps": [
+          {
+            "title": "Präventiv",
+            "text": "Vor dem Auftreten von Symptomen angewendet, stimuliert es die natürlichen Abwehrkräfte der Pflanze und schafft ein Umfeld, in dem sich Krankheitserreger nicht festsetzen können."
+          },
+          {
+            "title": "Kurativ",
+            "text": "Auf bereits befallenen Kulturen eliminiert es Krankheitserreger schnell, stoppt die Ausbreitung auf gesunde Pflanzen und stellt die Vitalität wieder her."
+          },
+          {
+            "title": "Systemisch",
+            "text": "Über Blatt und Wurzel im gesamten Gewebe verteilt, schützt es die ganze Pflanze über mehrere Wochen."
+          },
+          {
+            "title": "Standard-Spritzung",
+            "text": "Keine spezielle Schulung, keine besondere Ausrüstung, lange lagerfähig — und keine Wartezeit vor der Ernte."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Was sich dadurch ändert",
+        "items": [
+          {
+            "value": "0",
+            "title": "toxische Rückstände",
+            "text": "Nichts im Boden, in der Luft, im Wasser oder in der Ernte — leichterer Zugang zu Premium- und Exportmärkten."
+          },
+          {
+            "value": "−50 %",
+            "title": "Behandlungskosten",
+            "text": "Im Vergleich zu wiederholten konventionellen chemischen Behandlungen."
+          },
+          {
+            "value": "+25 %",
+            "title": "Ertrag im Durchschnitt",
+            "text": "Durchschnittliche Produktivitätssteigerung der behandelten Kulturen."
+          },
+          {
+            "icon": "leaf",
+            "title": "Bestäuber geschont",
+            "text": "Bienen, Hummeln und bestäubende Insekten werden nicht beeinträchtigt."
+          },
+          {
+            "icon": "root",
+            "title": "Das Bodenleben geht weiter",
+            "text": "Regenwürmer, Arthropoden und nützliche Mikroorganismen bleiben vollständig erhalten."
+          },
+          {
+            "icon": "clock",
+            "title": "Keine Wartezeit vor der Ernte",
+            "text": "Keine Wartefrist nach der Anwendung."
+          }
+        ]
+      },
+      "apps": {
+        "title": "Wo einsetzen",
+        "items": [
+          "Gemüsebau",
+          "Obstbau & Zitrusfrüchte",
+          "Weinbau",
+          "Ackerbau",
+          "Tropische Kulturen",
+          "Ökologische, integrierte und konventionelle Landwirtschaft"
+        ],
+        "note": "Bereits entwickelte Spezialformulierungen: Cochenille-Schildlaus des Feigenkaktus, Citrus Greening (HLB), Wurzelgallennematoden der Tomate, Schädlingskomplexe des Zuckerrohrs."
+      },
+      "proofs": {
+        "title": "Warum es die klassische biologische Bekämpfung übertrifft",
+        "items": [
+          {
+            "title": "Sofortwirkung, breites Spektrum",
+            "text": "Wirksam ab der Anwendung — gegen Schädlinge ebenso wie gegen Pilz- und Bakterienkrankheiten, wo Nützlinge Synchronisation, Mengen und günstige Witterung brauchen."
+          },
+          {
+            "title": "Unabhängig vom Klima",
+            "text": "Konstante Leistung bei jeder Witterung, im konventionellen, integrierten oder ökologischen Anbau."
+          },
+          {
+            "title": "Kompatibel mit Ihren Nützlingen",
+            "text": "Lässt sich in eine Schutzstrategie mit Nützlingen integrieren, ohne diese zu stören."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Häufige Fragen",
+        "items": [
+          {
+            "q": "Brauche ich eine Schulung oder besondere Ausrüstung?",
+            "a": "Nein: Anwendung per Blatt- und Wurzelspritzung mit Ihrer Standardtechnik, keine Schulung nötig — ein stabiles Produkt mit langer Haltbarkeit."
+          },
+          {
+            "q": "Ist es im Ökolandbau einsetzbar?",
+            "a": "Seine 100 % natürliche Formulierung hinterlässt keinerlei toxische Rückstände — ein Plus für die Bio-Zertifizierung und den Zugang zu Premiummärkten."
+          },
+          {
+            "q": "Wie lange dauert es von der Behandlung bis zur Ernte?",
+            "a": "Gar nicht. Anders als konventionelle Pestizide erfordert es keine Wartezeit vor der Ernte."
+          },
+          {
+            "q": "Und meine Bienen?",
+            "a": "Bestäuber, Regenwürmer und Nützlinge bleiben vollständig geschont: NAPEMA® respektiert die funktionale Biodiversität der Parzelle."
+          },
+          {
+            "q": "Mein Problem ist sehr speziell. Haben Sie eine Antwort?",
+            "a": "Genau das ist eine der Stärken von NAPEMA®: Unser F&E-Team entwickelt gezielte Formulierungen gemeinsam mit den Erzeugern — Cochenille, HLB, Nematoden, Zuckerrohr … — für jede Kultur und jeden Standort."
+          }
+        ]
+      }
+    },
+    "watervital": {
+      "path": "/solutions/water-vital/",
+      "tag": "Wasserqualität",
+      "name": "WATER VITAL®",
+      "tagline": "Wasser, das besser arbeitet — ganz ohne Energie.",
+      "lede": "Ein Inline-Gerät aus Edelstahl, das Bewässerungswasser durch molekulare Resonanz restrukturiert: „Totes“, ungeordnetes Wasser wird wieder zu „lebendigem“ Wasser mit optimalen natürlichen Eigenschaften. Ohne Energie, ohne Wartung, ohne Verbrauchsmaterial.",
+      "hero": {
+        "value": "−30 %",
+        "label": "Bewässerungswasser, mit Sofortwirkung",
+        "videoSrc": "/assets/video/watervital-3d.mp4",
+        "poster": "/assets/video/watervital-3d.webp",
+        "w": 720,
+        "h": 1280,
+        "portrait": true,
+        "alt": "3D-Schnittansicht des Geräts Water Vital®: Das Wasser strömt um seinen Kern"
+      },
+      "problem": {
+        "title": "Das Problem: Wasser, das alles beschädigt, was es durchläuft.",
+        "text": "Kalk, der die Tropfer verstopft, Korrosion in den Leitungen, anaerobe Bakterien, ungeordnetes Wasser, das die Pflanzen schlecht aufnehmen: Noch bevor Sie überhaupt bewässern, kostet Ihr Wasser Sie Geld."
+      },
+      "how": {
+        "title": "So funktioniert es",
+        "img": "/assets/img/products/watervital-how",
+        "w": 1400,
+        "h": 1313,
+        "alt": "Das Edelstahlgerät Water Vital®",
+        "caption": "Ein passives Edelstahlgerät, inline auf die Leitung montiert.",
+        "steps": [
+          {
+            "title": "Ein Inline-Gerät",
+            "text": "Es wird auf die Wasserleitung montiert — in der Leitung oder eingetaucht in einen Tank. Kein Strom, kein Anschluss."
+          },
+          {
+            "title": "Molekulare Resonanz",
+            "text": "Beim Durchfließen wird das Wasser restrukturiert: Es findet zu einer natürlichen molekularen Ordnung und seinen optimalen Eigenschaften zurück."
+          },
+          {
+            "title": "Weniger Ablagerungen, weniger Bakterien",
+            "text": "Korrosion und Kalk gehen in Bewässerungssystemen deutlich zurück; anaerobe Bakterien werden eliminiert."
+          },
+          {
+            "title": "Sofortwirkung",
+            "text": "Ab der Installation: 30 % weniger Bewässerungswasser und eine bessere Bioverfügbarkeit der Nährstoffe."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Was sich dadurch ändert",
+        "items": [
+          {
+            "value": "−30 %",
+            "title": "Bewässerungswasser",
+            "text": "Mit Sofortwirkung ab der Installation."
+          },
+          {
+            "value": "−95 %",
+            "title": "unangenehme Gerüche",
+            "text": "Ställe, Lagerhallen, Kühlräume, Gemeinschaftsräume."
+          },
+          {
+            "icon": "badge",
+            "title": "Besser haltbare Ernten",
+            "text": "Höhere Qualität von Obst und Gemüse, längere Haltbarkeit nach der Ernte."
+          },
+          {
+            "icon": "shield",
+            "title": "Widerstandsfähigere Pflanzen",
+            "text": "Erhöhte natürliche Resistenz gegen Parasitenbefall."
+          },
+          {
+            "icon": "water",
+            "title": "Tierhaltung: bessere Verdaulichkeit",
+            "text": "Geflügel, Rinder, Pferde, Schafe, Schweine."
+          },
+          {
+            "value": "55+",
+            "title": "Länder haben es eingeführt",
+            "text": "Eine bewährte Technologie — ökologisch und auf Dauer wirtschaftlich."
+          }
+        ]
+      },
+      "apps": {
+        "title": "Wo einsetzen",
+        "items": [
+          "Tropfbewässerung",
+          "Beregnung & Pivot-Anlagen",
+          "Gewächshäuser & Baumschulen",
+          "Tierhaltung",
+          "Lagerhallen & Kühlräume",
+          "Häuslicher Gebrauch"
+        ],
+        "note": "Drei Formate: Rohrmontage, Eintauchen in einen Tank oder persönlicher Gebrauch."
+      },
+      "proofs": {
+        "title": "Belege & Garantien",
+        "items": [
+          {
+            "title": "Ohne Energie, ohne Wartung",
+            "text": "Kein Verbrauchsmaterial, kein Motor, keine Verschleißteile: ein passives Gerät aus Edelstahl."
+          },
+          {
+            "title": "5 Jahre Garantie",
+            "text": "Die Geräte von Water Vital® haben in allen drei Formaten 5 Jahre Garantie."
+          },
+          {
+            "title": "In über 55 Ländern im Einsatz",
+            "text": "Eine Technologie, die bereits auf allen Kontinenten eingesetzt wird."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Häufige Fragen",
+        "items": [
+          {
+            "q": "Wie wird es installiert?",
+            "a": "Inline auf der Wasserleitung oder eingetaucht in einen Tank. Kein Strom, kein besonderer Anschluss; die Wirkung setzt sofort ein."
+          },
+          {
+            "q": "Welche Wartung ist nötig?",
+            "a": "Keine. Kein Verbrauchsmaterial, kein Filterwechsel, keine Verschleißteile — das Gerät hat 5 Jahre Garantie."
+          },
+          {
+            "q": "Mit welchem Wasser funktioniert es?",
+            "a": "Brunnen-, Leitungs-, Tank- oder Teichwasser: Das Gerät restrukturiert das Wasser, das es durchläuft — unabhängig von seiner Herkunft."
+          },
+          {
+            "q": "Was bringt es der Tierhaltung?",
+            "a": "Eine bessere Verdaulichkeit des Wassers für Geflügel, Rinder, Pferde, Schafe und Schweine — und 95 % weniger unangenehme Gerüche in Ställen und Gebäuden."
+          },
+          {
+            "q": "Welche Wirkung hat es auf meine Anlagen?",
+            "a": "Weniger Kalk und Korrosion in Leitungen und Tropfern — und die Eliminierung anaerober Bakterien im System."
+          }
+        ]
+      }
+    },
+    "paulownia": {
+      "path": "/paulownia/",
+      "tag": "Plantage & Forstwirtschaft",
+      "name": "PAULOWNIA ALTIFOLIA®",
+      "tagline": "Ein rentabler Wald in sechs Jahren.",
+      "lede": "Eine starke Hybride (Paulownia elongata × fortunei), selektiert für heiße, trockene Regionen und geschützt durch die Sortenzertifizierung CPVO EU 39980. Der am schnellsten wachsende Baum der Welt — und jede Pflanze kommt mit ihrer Dosis EVERGREEN® und ECOFERT®.",
+      "hero": {
+        "value": "≈ 80.000 €",
+        "label": "Rendite pro Hektar in 6 Jahren — 825 Bäume, Holz zu 550 €/m³",
+        "img": "/assets/img/products/paulownia-hero",
+        "w": 1400,
+        "h": 875,
+        "alt": "Allee einer ausgewachsenen Plantage mit Paulownia ALTIFOLIA®"
+      },
+      "statsLabel": "Kennzahlen des Paulownia ALTIFOLIA®",
+      "stats": [
+        {
+          "value": "3 m/Jahr",
+          "label": "Wachstum: 13 bis 15 m in 6 bis 8 Jahren, Blätter bis zu 80 cm"
+        },
+        {
+          "value": "5 L/Tag",
+          "label": "Wasser im Durchschnitt, gegenüber 25 L bei anderen Sorten — die einzige auf diesem Niveau"
+        },
+        {
+          "value": "−25 bis +45 °C",
+          "label": "Klimatoleranz, auf einer großen Vielfalt von Böden"
+        },
+        {
+          "value": "426 °C",
+          "label": "Entzündungstemperatur: eine natürliche Brandbarriere"
+        }
+      ],
+      "growth": {
+        "title": "Das Wachstum, Jahr für Jahr",
+        "intro": "Echte Fotos unserer Plantagen, vor allem in Spanien (825 Bäume/ha).",
+        "items": [
+          {
+            "img": "1",
+            "year": "1 Jahr",
+            "height": "bis zu 5 m",
+            "alt": "Ein Jahr alter Paulownia ALTIFOLIA®"
+          },
+          {
+            "img": "2",
+            "year": "2 Jahre",
+            "height": "8 bis 10 m",
+            "alt": "Zwei Jahre alter Paulownia ALTIFOLIA®"
+          },
+          {
+            "img": "3",
+            "year": "3 Jahre",
+            "height": "10 bis 12 m",
+            "alt": "Drei Jahre alter Paulownia ALTIFOLIA®"
+          },
+          {
+            "img": "5",
+            "year": "5 Jahre",
+            "height": "15 bis 18 m",
+            "alt": "Fünf Jahre alter Paulownia ALTIFOLIA®"
+          },
+          {
+            "img": "7",
+            "year": "7 Jahre",
+            "height": "über 20 m",
+            "alt": "Sieben Jahre alter Paulownia ALTIFOLIA®"
+          }
+        ],
+        "note": "Erste Ernte möglich Ende des 3. Jahres, oder mit 6 oder 8 Jahren je nach angestrebtem Absatzmarkt. Der charakteristisch gerade Wuchs der Hybride macht den technischen Schnitt im zweiten Jahr überflüssig."
+      },
+      "compare16": {
+        "alt": "Zwei Fotos derselben Paulownia-Plantage: mit einem Jahr und mit sechs Jahren, mit einer Person als Maßstab",
+        "caption": "Dieselbe Plantage, mit 1 Jahr und mit 6 Jahren."
+      },
+      "how": {
+        "title": "Pflanzen, ganz einfach",
+        "img": "/assets/img/paulownia/plan",
+        "w": 620,
+        "h": 702,
+        "alt": "Empfohlener Pflanzplan: versetzte Reihen, 4 Meter zwischen den Reihen, 3 Meter zwischen den Bäumen",
+        "caption": "Pflanzplan und Protokoll werden mit den Bäumen geliefert: 4 m zwischen den Reihen, 3 m zwischen den Bäumen, versetzt.",
+        "steps": [
+          {
+            "title": "Sie erhalten pflanzfertige Setzlinge",
+            "text": "Setzlinge von 25 bis 30 cm im Topf mit Substrat, Wasserspeicher und einer Dosis natürlichen Düngers, dazu ein Pflanzengesundheitszeugnis. Lieferung per Flugzeug in rund 6 Wochen, Mindestbestellung 1.000 Pflanzen."
+          },
+          {
+            "title": "Sechs Wochen im Gewächshaus",
+            "text": "Nach Erhalt verbringen die Setzlinge 6 Wochen im Gewächshaus, bevor sie gepflanzt werden. Keine Kühllagerung nötig."
+          },
+          {
+            "title": "Tropfbewässerung und Schutz",
+            "text": "Tropfbewässerung empfohlen, Schutz vor Wildtieren unerlässlich — aber kein Stützpfahl nötig."
+          },
+          {
+            "title": "Garantierter Ersatz",
+            "text": "Jeder Baum, der während der Wachstumsphase bis zur Reife abstirbt, wird automatisch ersetzt."
+          }
+        ]
+      },
+      "fire": {
+        "title": "Der Schutzschild gegen Feuer",
+        "text": "Paulownia ALTIFOLIA® entzündet sich erst bei 426 °C — das unterscheidet ihn von Eukalyptus und Nadelbäumen. Er wird in den Pinienwäldern Südfrankreichs und Andalusiens als natürliche Brandbarriere eingesetzt. Seine Blätter zersetzen sich schnell am Boden: keine Ansammlung von trockenem, brennbarem Material.",
+        "quote": "Im Jahr 2022, nach dem Großbrand, der die Region um Tarascon verwüstete, waren die einzigen von den Flammen verschonten Bäume unsere Paulownias.",
+        "cite": "Tarascon, Südfrankreich — 2022",
+        "alt": "Verbrannte Landschaft nach dem Brand von Tarascon 2022, in der die Paulownias stehen geblieben sind",
+        "caption": "Nach dem Brand von Tarascon (2022): die Paulownias, noch immer aufrecht."
+      },
+      "markets": {
+        "title": "Vier Absatzmärkte",
+        "items": [
+          {
+            "value": "550 €/m³",
+            "title": "Nutzholz",
+            "text": "Ein leichtes, belastbares Holz, geschätzt in Tischlerei, Möbelbau und Konstruktion."
+          },
+          {
+            "value": "100-200 €/t",
+            "title": "Pellets & Biomasse",
+            "text": "Ein Biobrennstoff von ausgezeichneter Qualität, international stark nachgefragt."
+          },
+          {
+            "value": "400-700 kg/ha",
+            "title": "Paulownia-Honig",
+            "text": "Sehr nektarreiche Blüten — Quelle eines hochwertigen Honigs."
+          },
+          {
+            "value": "1 Zertifikat = 1 t CO₂",
+            "title": "CO₂-Zertifikate",
+            "text": "Der Baum mit der höchsten CO₂-Aufnahme und Sauerstoffproduktion: Seine Plantagen vervielfachen die CO₂-Zertifikate."
+          }
+        ]
+      },
+      "delivery": {
+        "title": "Was Sie erhalten",
+        "intro": "Die Bestell- und Lieferbedingungen, schwarz auf weiß.",
+        "items": [
+          "Setzlinge von 25 bis 30 cm, im Topf mit Substrat",
+          "Jede Pflanze geliefert mit ihrem EVERGREEN®-Wasserspeicher (50 g) und ihrer Dosis ECOFERT®",
+          "Pflanzengesundheitszeugnis: zertifiziert krankheitsfreie Pflanzen",
+          "Verpackung auf Paletten und in verstärkten Kartons",
+          "Lieferung per Flugzeug, durchschnittliche Lieferzeit 6 Wochen",
+          "6 Wochen im Gewächshaus vor der Pflanzung — keine Kühllagerung",
+          "Mindestbestellung: 1.000 Pflanzen",
+          "Pflanzplan und Protokoll werden mit den Bäumen geliefert",
+          "Automatischer Ersatz jedes Baums, der vor der Reife abstirbt"
+        ],
+        "alt": "Paulownia-Setzlinge in Töpfen, in der Baumschule",
+        "caption": "Setzlinge in der Baumschule vor dem Versand."
+      },
+      "synergy": "Werden bei der Pflanzung 50 g EVERGREEN® je Pflanze eingearbeitet, halbiert sich der Bewässerungsbedarf und der Baum verfügt dauerhaft über seine Wasserreserve: Die Folgen von Wasserstress sind beseitigt. Eine Komplettlösung für die Aufforstung und gegen die Wüstenbildung.",
+      "faq": {
+        "title": "Häufige Fragen",
+        "items": [
+          {
+            "q": "In welchem Klima kann man ihn pflanzen?",
+            "a": "Er verträgt −25 °C bis +45 °C und passt sich einer großen Vielfalt von Böden an — genau für heiße, trockene Regionen haben wir diese Hybride selektiert."
+          },
+          {
+            "q": "Wie viel Wasser verbraucht er wirklich?",
+            "a": "5 Liter pro Tag im Jahresmittel (5 bis 7 L bei extremer Hitze), gegenüber mindestens 25 Litern bei anderen Sorten. Mit dem bei der Pflanzung eingearbeiteten EVERGREEN®-Wasserspeicher halbiert sich die Bewässerung noch einmal."
+          },
+          {
+            "q": "Welche Pflege braucht die Plantage?",
+            "a": "Tropfbewässerung, Schutz vor Wildtieren, Schnitt zu Beginn des Zyklus. Kein Stützpfahl — und kein zwingendes Aufräumen abgefallener Äste: Die Blätter zersetzen sich schnell und sammeln kein brennbares Material an."
+          },
+          {
+            "q": "Wann wird geerntet?",
+            "a": "Erste Ernte möglich ab Ende des 3. Jahres, oder mit 6 und 8 Jahren je nach Absatzmarkt. Mit 6-8 Jahren erreicht der Baum 13 bis 15 Meter."
+          },
+          {
+            "q": "Welche wissenschaftlichen Validierungen gibt es?",
+            "a": "Sortenzertifizierung CPVO EU 39980, Studien des CNPF-IDF ab Juli 2025, eine Publikation in Frontiers in Environmental Science (2024) zur CO₂-Minderung und ein 22 Hektar großes Versuchszentrum in Toledo (Spanien) mit einem EG-zugelassenen Agrarlabor."
+          },
+          {
+            "q": "Ist er in der Nähe von Häusern oder Wäldern riskant?",
+            "a": "Im Gegenteil: Da er sich erst bei 426 °C entzündet, dient er als Brandbarriere. In Tarascon standen 2022 nach dem Brand nur noch unsere Paulownias."
+          }
+        ]
+      }
+    }
+  },
+  "resultsPage": {
+    "h1": "Ergebnisse statt Versprechen.",
+    "lede": "Gemessene Erträge, Wassereinsparungen, angereicherte Böden, Vorher-nachher-Fotos: was unsere Technologien auf dem Feld verändern — mit Zahlen belegt.",
+    "yieldsTitle": "Die Erträge mit ECOFERT®",
+    "yieldsIntro": "Von Green Solutions gemeldete Erträge, verglichen mit den weltweiten Durchschnitten, Kultur für Kultur.",
+    "water": {
+      "title": "Das eingesparte Wasser",
+      "intro": "Das Herz des Systems: Wasser dort speichern, wo die Wurzeln sind, und nur so viel bewässern wie nötig.",
+      "stats": [
+        {
+          "value": "300×",
+          "label": "sein Gewicht an Wasser: So viel speichert ein Korn EVERGREEN®"
+        },
+        {
+          "value": "−50 bis −70 %",
+          "label": "Bewässerungswasser je nach Kultur und System"
+        },
+        {
+          "value": "−50 bis −80 %",
+          "label": "Bewässerungshäufigkeit"
+        },
+        {
+          "value": "+95 %",
+          "label": "Anwachsrate umgepflanzter Setzlinge"
+        }
+      ],
+      "videoAlt": "Demonstration im Becherglas: Trockenes Wasserspeicher-Granulat quillt bei Wasserkontakt zu Gel auf",
+      "videoCaption": "Demonstration unter realen Bedingungen: Das trockene Granulat nimmt Wasser auf und verwandelt sich binnen Minuten in Gel."
+    },
+    "soil": {
+      "title": "Böden, die sich wieder aufbauen",
+      "intro": "Unabhängige Bodenanalysen zu Beginn und am Ende der Wachstumssaison: Die organische Substanz nimmt deutlich zu.",
+      "items": [
+        {
+          "label": "Spargel",
+          "value": "≈ +65 %",
+          "pct": 100
+        },
+        {
+          "label": "Mandelbäume",
+          "value": "≈ +48 %",
+          "pct": 74
+        },
+        {
+          "label": "Mais",
+          "value": "≈ +24 %",
+          "pct": 37
+        }
+      ],
+      "note": "Auch Kirschbäume, Olivenbäume, Weizen und Birnbäume haben zugelegt; die genauen Werte werden derzeit mit Green Solutions konsolidiert."
+    },
+    "before": {
+      "title": "Vorher / nachher",
+      "aAlt": "Versuchsfeld: mit EVERGREEN® behandelte Reihen neben unbehandelten Reihen",
+      "aCaption": "Dasselbe Feld, mit und ohne EVERGREEN®.",
+      "bAlt": "Dieselbe Plantage mit Paulownia ALTIFOLIA®, fotografiert mit 1 Jahr und mit 6 Jahren",
+      "bCaption": "Dieselbe Plantage mit Paulownia ALTIFOLIA®: 1 Jahr, dann 6 Jahre."
+    },
+    "certs": {
+      "title": "Zertifizierungen & Validierungen",
+      "euBioAlt": "EU-Ökolandbau — ES-ECO-002-AN",
+      "items": [
+        {
+          "title": "CPVO EU 39980",
+          "text": "Paulownia ALTIFOLIA® genießt den europäischen Sortenschutz."
+        },
+        {
+          "title": "CNPF-IDF · Frontiers (2024)",
+          "text": "Studien des französischen Zentrums für Privatwald CNPF-IDF (ab Juli 2025) und eine Publikation in Frontiers in Environmental Science (2024) zur CO₂-Minderung."
+        },
+        {
+          "title": "22 ha Versuchsflächen in Toledo",
+          "text": "Ein Versuchszentrum unter Extrembedingungen (karger Boden, Trockenheit, Hitze), in Partnerschaft mit einem EG-zugelassenen Agrarlabor."
+        }
+      ],
+      "note": "Quellen: Broschüren und Unterlagen von Green Solutions (2026). Die Erträge sind von Green Solutions gemeldete Zahlen; weltweiter Weizendurchschnitt: FAO 2022."
+    }
+  },
+  "companyPage": {
+    "h1": "Von Le Pradet aus — für die Felder der ganzen Welt.",
+    "lede": "Green Solutions vereint eine operative Führung, wissenschaftliche Referenzen und Ansprechpartner vor Ort auf vier Kontinenten.",
+    "vision": {
+      "title": "Woran wir glauben",
+      "lead": "Landwirtschaft kann intensiv und regenerativ zugleich sein — wenn man das ganze System behandelt: das Wasser, den Boden, die Pflanze.",
+      "text": "Green Solutions entwickelt und vertreibt disruptive Agrartechnologien, die auf die vier Herausforderungen der modernen Landwirtschaft antworten: Wasserstress, Bodenerschöpfung, Rentabilität, Ernährungssicherheit. Vom Familienbetrieb bis zum nationalen Aufforstungsprogramm gilt derselbe Anspruch: messbare Ergebnisse."
+    },
+    "method": {
+      "title": "Wie wir arbeiten",
+      "steps": [
+        {
+          "title": "Ihr Boden zuerst",
+          "text": "Kultur, Boden, Klima, Wasserressourcen, Rahmenbedingungen: Jedes Projekt beginnt mit einer konkreten Bestandsaufnahme Ihrer Situation."
+        },
+        {
+          "title": "Ein präzises Protokoll",
+          "text": "Produkte, Dosierungen und Zeitplan, abgestimmt auf Ihre Kultur — mit der Landtechnik, die Sie bereits haben."
+        },
+        {
+          "title": "Begleitung auf Dauer",
+          "text": "Unsere Ansprechpartner vor Ort und unser Expertennetzwerk begleiten Sie Saison für Saison — bis zu den Ergebnissen."
+        }
+      ]
+    },
+    "direction": {
+      "title": "Die Führung",
+      "people": [
+        {
+          "slug": "michel-paul-correa",
+          "name": "Michel-Paul Correa",
+          "role": "CEO · Leiter Internationale Geschäftsentwicklung"
+        },
+        {
+          "slug": "jean-michel-foucher",
+          "name": "Jean-Michel Foucher",
+          "role": "Technischer Direktor"
+        },
+        {
+          "slug": "gabriel-bonnat",
+          "name": "Gabriel Bonnat",
+          "role": "Direktor Strategie"
+        },
+        {
+          "slug": "franck-petain",
+          "name": "Franck Petain",
+          "role": "Direktor Finanzen"
+        }
+      ]
+    },
+    "experts": {
+      "title": "Das Netzwerk aus Experten und Ansprechpartnern",
+      "intro": "Wissenschaftler, Agronomen und Ansprechpartner vor Ort, aktiv in über 50 Ländern.",
+      "people": [
+        {
+          "slug": "gilles-martin-peulet",
+          "name": "Gilles Martin-Peulet",
+          "role": "Experte für Böden & Pflanzen · 50+ Länder"
+        },
+        {
+          "slug": "christian-carnavalet",
+          "name": "Christian Carnavalet",
+          "role": "Institut Moreau-Daverne · French Method"
+        },
+        {
+          "slug": "nicolas-marmier",
+          "name": "Pr Nicolas Marmier",
+          "role": "Professor & Umweltforscher"
+        },
+        {
+          "slug": "rene-munya",
+          "name": "René Munya",
+          "role": "Präsident Afrinest Farm · Südafrika"
+        },
+        {
+          "slug": "chokry-bayoud",
+          "name": "Chokry Bayoud",
+          "role": "CEO Greenfield Advisor · Tunesien"
+        },
+        {
+          "slug": "mohamed-hajlaoui",
+          "name": "Pr Mohamed Hajlaoui",
+          "role": "Professor INAT Tunis · Forschungsdirektor"
+        },
+        {
+          "slug": "jean-guy-ongono",
+          "name": "Jean-Guy Ongono",
+          "role": "Ansprechpartner Kamerun · CEMAC & Afrika"
+        },
+        {
+          "slug": "lionel-lhommet",
+          "name": "Lionel Lhommet",
+          "role": "Ansprechpartner Persischer Golf"
+        },
+        {
+          "slug": "ken-arian",
+          "name": "Ken Arian",
+          "role": "Ansprechpartner Indischer Ozean & Afrika"
+        },
+        {
+          "slug": "ahmed-elashrry",
+          "name": "Ahmed Elashrry",
+          "role": "Ansprechpartner Ägypten & Jordanien"
+        },
+        {
+          "slug": "alfredo-curina",
+          "name": "Alfrédo Curina",
+          "role": "Ansprechpartner Italien · Tabakspezialist"
+        },
+        {
+          "slug": "jean-camille-bissereth",
+          "name": "Jean-Camille Bissereth",
+          "role": "Präsident CEHPAPE · Landwirtschaft Haiti & Karibik"
+        },
+        {
+          "slug": "daniel-baloche",
+          "name": "Daniel Baloche",
+          "role": "Ansprechpartner USA"
+        },
+        {
+          "slug": "yves-haddad",
+          "name": "Me Yves Haddad",
+          "role": "Internationaler Anwalt"
+        }
+      ],
+      "domains": "Böden & Pflanzen · Agronomie · Umwelt · Länderentwicklung"
+    },
+    "world": {
+      "title": "Präsent, wo die Probleme sind",
+      "intro": "Eingesetzte Technologien und aktive Ansprechpartner auf vier Kontinenten.",
+      "regions": [
+        {
+          "name": "Europa",
+          "countries": "Frankreich · Spanien · Italien · Vereinigtes Königreich"
+        },
+        {
+          "name": "Afrika",
+          "countries": "Südafrika · Tunesien · Marokko · Ägypten · Mali · Senegal · Guinea · Guinea-Bissau · Kamerun"
+        },
+        {
+          "name": "Naher Osten & Indischer Ozean",
+          "countries": "Persischer Golf · Jordanien · Indischer Ozean"
+        },
+        {
+          "name": "Amerika & Karibik",
+          "countries": "USA · Kanada · Brasilien · Haiti & Karibik"
+        }
+      ]
+    },
+    "partners": {
+      "title": "Sie arbeiten mit uns",
+      "intro": "Rund dreißig Forschungsinstitute, Universitäten, Unternehmen und Vertriebspartner."
+    }
+  },
+  "contactPage": {
+    "h1": "Stellen Sie uns Ihr Projekt vor.",
+    "lede": "Zwei Schritte, drei Minuten: zuerst Ihr Projekt, dann Ihre Kontaktdaten. Michel-Paul Correa antwortet Ihnen persönlich.",
+    "form": {
+      "step1Label": "Ihr Projekt",
+      "step2Label": "Ihre Kontaktdaten",
+      "step1Title": "Erzählen Sie uns von Ihrem Projekt",
+      "culture": "Ihre Kultur oder Ihr Einsatzbereich",
+      "culturePh": "Gemüsebau, Olivenbäume, Golfplatz, Aufforstung …",
+      "country": "Land des Projekts",
+      "countryPh": "Frankreich, Tunesien, Brasilien …",
+      "countryList": [
+        "Frankreich",
+        "Spanien",
+        "Portugal",
+        "Italien",
+        "Deutschland",
+        "Vereinigtes Königreich",
+        "Marokko",
+        "Tunesien",
+        "Ägypten",
+        "Jordanien",
+        "Vereinigte Arabische Emirate",
+        "Saudi-Arabien",
+        "Senegal",
+        "Mali",
+        "Guinea",
+        "Guinea-Bissau",
+        "Kamerun",
+        "Südafrika",
+        "USA",
+        "Kanada",
+        "Brasilien",
+        "Haiti"
+      ],
+      "area": "Betroffene Fläche (in Hektar)",
+      "areaPh": "z. B. 12",
+      "problem": "Ihre größte Herausforderung",
+      "problems": [
+        {
+          "value": "eau",
+          "label": "Das Wasser — Dürre, Auflagen, Kosten"
+        },
+        {
+          "value": "sol",
+          "label": "Der Boden — ausgelaugt, verdichtet"
+        },
+        {
+          "value": "rendement",
+          "label": "Ertrag und Rentabilität"
+        },
+        {
+          "value": "ravageurs",
+          "label": "Schädlinge und Krankheiten"
+        },
+        {
+          "value": "reboisement",
+          "label": "Ein Pflanz- oder Aufforstungsprojekt"
+        }
+      ],
+      "interest": "Die Lösungen, die Sie interessieren (optional)",
+      "interests": [
+        {
+          "value": "evergreen",
+          "label": "EVERGREEN® & ECOSORB®"
+        },
+        {
+          "value": "ecofert",
+          "label": "ECOFERT®"
+        },
+        {
+          "value": "napema",
+          "label": "NAPEMA®"
+        },
+        {
+          "value": "watervital",
+          "label": "WATER VITAL®"
+        },
+        {
+          "value": "paulownia",
+          "label": "PAULOWNIA ALTIFOLIA®"
+        }
+      ],
+      "next": "Weiter",
+      "step2Title": "Ihre Kontaktdaten",
+      "name": "Vor- und Nachname",
+      "org": "Organisation — Betrieb, Genossenschaft, Kommune …",
+      "email": "E-Mail",
+      "phone": "Telefon, mit Ländervorwahl",
+      "message": "Ihr Projekt in wenigen Zeilen (optional)",
+      "messagePh": "Kontext, Rahmenbedingungen, Zeitplan …",
+      "privacy": "Ihre Angaben dienen ausschließlich der Beantwortung Ihrer Anfrage. Sie werden weder weitergegeben noch zu anderen Zwecken verwendet.",
+      "back": "Zurück",
+      "submit": "Projekt absenden",
+      "required": "Dieses Feld ist erforderlich.",
+      "requiredChoice": "Wählen Sie eine Option.",
+      "emailError": "Geben Sie eine gültige E-Mail-Adresse ein.",
+      "successTitle": "Gut angekommen.",
+      "successText": "Ihr Projekt liegt nun bei Michel-Paul Correa. Sie erhalten in Kürze eine persönliche Antwort."
+    },
+    "aside": {
+      "title": "Direkter Draht",
+      "note": "Sie besprechen es lieber mündlich? Ein Anruf genügt, um die Grundlagen Ihres Projekts zu klären."
+    }
+  }
+}

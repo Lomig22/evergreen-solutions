@@ -7,9 +7,9 @@
   var rtl = document.documentElement.dir === 'rtl';
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var valueTpl = handle.getAttribute('data-valuetext') || '{n} %';
-  var REST = 50;
   /* séquence raccourcie sur mobile : le titre doit arriver vite */
   var small = window.matchMedia('(max-width: 899px)').matches;
+  var REST = small ? 44 : 50;
   var SWEEP = small ? 1600 : 3000;
   var DELAY = small ? 150 : 350;
   var TITLE_AT = small ? 800 : 2600;
@@ -58,9 +58,11 @@
     try { sessionStorage.setItem('gs-hero', '1'); } catch (e) {}
   }
 
-  /* --- glisser (souris, doigt, stylet) */
+  /* --- glisser (souris, doigt, stylet) — coupe verticale sur desktop, horizontale sur mobile */
+  if (small) handle.setAttribute('aria-orientation', 'vertical');
   function pctFromEvent(e) {
     var r = stage.getBoundingClientRect();
+    if (small) return ((e.clientY - r.top) / r.height) * 100;
     var x = (e.clientX - r.left) / r.width;
     if (rtl) x = 1 - x;
     return x * 100;
@@ -68,6 +70,8 @@
   var dragging = false;
   function start(e) {
     if (e.button !== undefined && e.button !== 0) return;
+    /* sur mobile, seul le curseur se saisit : le doigt ailleurs fait défiler la page */
+    if (small && !handle.contains(e.target)) return;
     dragging = true;
     hero.classList.add('is-dragging', 'is-static');
     if (raf) { cancelAnimationFrame(raf); raf = null; }
@@ -89,8 +93,8 @@
     switch (e.key) {
       case 'ArrowRight': next = current + (rtl ? -stepSize : stepSize); break;
       case 'ArrowLeft': next = current - (rtl ? -stepSize : stepSize); break;
-      case 'ArrowUp': next = current + stepSize; break;
-      case 'ArrowDown': next = current - stepSize; break;
+      case 'ArrowUp': next = current - stepSize; break;
+      case 'ArrowDown': next = current + stepSize; break;
       case 'Home': next = 0; break;
       case 'End': next = 100; break;
       case 'PageUp': next = current + 10; break;

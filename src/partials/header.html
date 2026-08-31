@@ -22,7 +22,7 @@
       </ul>
       <div class="site-nav__mobile-extra">
         <a class="btn btn--primary" href="{{url '/contact/'}}">{{common.cta}}</a>
-        <ul class="site-nav__langs" aria-label="{{common.language}}">
+        <ul class="site-nav__langs" role="list" aria-label="{{common.language}}">
           {{#each alternates}}<li><a href="{{path}}" lang="{{code}}" hreflang="{{code}}"{{#if current}} aria-current="true"{{/if}}>{{name}}</a></li>
           {{else}}{{#each site.langs}}<li><a href="{{#if (eq code site.defaultLang)}}/{{else}}/{{code}}/{{/if}}" lang="{{code}}" hreflang="{{code}}">{{name}}</a></li>{{/each}}{{/each}}
         </ul>

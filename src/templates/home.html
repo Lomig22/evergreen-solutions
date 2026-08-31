@@ -32,7 +32,7 @@
 
 <section class="numbers" id="chiffres" aria-label="{{home.stats.label}}">
   <div class="container">
-    <ul class="numbers__list" data-counters>
+    <ul class="numbers__list" role="list" data-counters>
       {{#each home.stats.items}}<li class="stat">
         <span class="stat__value"><span class="stat__num" data-counter="{{value}}" data-prefix="{{prefix}}" data-suffix="{{suffix}}">{{prefix}}{{display}}{{suffix}}</span></span>
         <span class="stat__label">{{label}}</span>

@@ -23,17 +23,19 @@
           <li><a href="{{url '/mentions-legales/'}}">{{footer.legal}}</a></li>
         </ul>
       </nav>
-      <address class="site-footer__col site-footer__contact">
+      <div class="site-footer__col site-footer__contact">
         <h2 class="site-footer__title">{{footer.contactTitle}}</h2>
+        <address>
         <p><strong>{{org.contactName}}</strong><br>{{org.contactRole}}</p>
         <p>{{org.address.streetAddress}}<br>{{org.address.postalCode}} {{org.address.addressLocality}}, {{org.address.countryName}}</p>
         <p><a href="tel:{{org.phoneE164}}">{{org.phoneDisplay}}</a></p>
         <p><a href="mailto:{{org.email}}">{{org.email}}</a><br><a href="mailto:{{org.email2}}">{{org.email2}}</a></p>
-      </address>
+        </address>
+      </div>
     </div>
     <div class="site-footer__bottom">
       <p>© {{year}} {{site.name}} · {{org.rcs}} · {{footer.rights}}</p>
-      <ul class="site-footer__langs" aria-label="{{common.language}}">
+      <ul class="site-footer__langs" role="list" aria-label="{{common.language}}">
         {{#each alternates}}<li><a href="{{path}}" lang="{{code}}" hreflang="{{code}}"{{#if current}} aria-current="true"{{/if}}>{{name}}</a></li>
         {{else}}{{#each site.langs}}<li><a href="{{#if (eq code site.defaultLang)}}/{{else}}/{{code}}/{{/if}}" lang="{{code}}" hreflang="{{code}}">{{name}}</a></li>{{/each}}{{/each}}
       </ul>

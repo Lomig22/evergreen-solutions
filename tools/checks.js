@@ -1,0 +1,25 @@
+const puppeteer = require('puppeteer-core');
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+  const browser = await puppeteer.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: 'new' });
+  const page = await browser.newPage();
+  await page.setViewport({ width: 1440, height: 950 });
+  await page.goto('http://localhost:8123/solutions/ecofert/', { waitUntil: 'networkidle0' });
+  await page.evaluate(() => document.querySelector('.pyields').scrollIntoView());
+  await sleep(400);
+  await page.screenshot({ path: process.argv[2] + '/check-yields.png' });
+  await page.setViewport({ width: 390, height: 844 });
+  await page.goto('http://localhost:8123/solutions/ecofert/', { waitUntil: 'networkidle0' });
+  await page.evaluate(() => document.querySelector('.pyields').scrollIntoView());
+  await sleep(400);
+  await page.screenshot({ path: process.argv[2] + '/check-yields-mobile.png' });
+  const p2 = await browser.newPage();
+  await p2.setViewport({ width: 390, height: 844 });
+  await p2.goto('http://localhost:8123/', { waitUntil: 'domcontentloaded' });
+  await sleep(400);
+  await p2.screenshot({ path: process.argv[2] + '/check-home-mobile-early.png' });
+  await sleep(2200);
+  await p2.screenshot({ path: process.argv[2] + '/check-home-mobile-late.png' });
+  await browser.close();
+  console.log('ok');
+})().catch((e) => { console.error(e.message); process.exit(1); });

@@ -4,7 +4,7 @@
     <span role="listitem" class="yields__key yields__key--world"><i aria-hidden="true"></i>{{yieldsUi.world}}</span>
   </div>
   <div class="yields__tabs" role="tablist" aria-label="{{yieldsUi.tabsLabel}}">
-    {{#each yieldsData.groups}}<button class="yields__tab" role="tab" id="ytab-{{@index}}" aria-controls="ypanel-{{@index}}" aria-selected="{{#if @first}}true{{else}}false{{/if}}" {{#unless @first}}tabindex="-1"{{/unless}} data-yields-tab>{{name}}</button>
+    {{#each yieldsData.groups}}<button class="yields__tab" type="button" role="tab" id="ytab-{{@index}}" aria-controls="ypanel-{{@index}}" aria-selected="{{#if @first}}true{{else}}false{{/if}}" {{#unless @first}}tabindex="-1"{{/unless}} data-yields-tab>{{name}}</button>
     {{/each}}
   </div>
   {{#each yieldsData.groups}}<div class="yields__panel" role="tabpanel" id="ypanel-{{@index}}" aria-labelledby="ytab-{{@index}}" {{#unless @first}}hidden{{/unless}}>

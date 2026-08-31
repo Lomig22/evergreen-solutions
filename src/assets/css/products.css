@@ -7,7 +7,7 @@
 .phero__grid { display: grid; gap: var(--space-10); align-items: center; }
 @media (min-width: 900px) { .phero__grid { grid-template-columns: minmax(0, 46fr) minmax(0, 54fr); min-height: 66svh; } }
 .phero__body { display: grid; gap: var(--space-4); max-width: 36rem; }
-.phero__tag { font-weight: 600; color: var(--leaf); font-size: var(--fs-small); }
+.phero__tag { font-weight: 600; color: var(--leaf-700); font-size: var(--fs-small); }
 .phero__name { font-size: clamp(2.25rem, 4.5vw, 3.75rem); line-height: 1; }
 .phero__tagline { font-family: var(--font-display); font-weight: 600; font-size: var(--fs-h3); line-height: 1.25; color: var(--forest-900); letter-spacing: -0.01em; }
 .phero__lede { color: var(--ink-muted); line-height: 1.55; }
@@ -217,7 +217,7 @@
 .person--sm .person__photo { width: 5rem; height: 5rem; }
 .person__name { font-family: var(--font-display); font-weight: 700; color: var(--forest); font-size: 1rem; line-height: 1.2; }
 .person__role { font-size: var(--fs-xs); color: var(--ink-muted); line-height: 1.35; max-width: 12rem; }
-.team__domains { margin-block-start: var(--space-10); text-align: center; font-family: var(--font-display); font-weight: 600; color: var(--leaf); }
+.team__domains { margin-block-start: var(--space-10); text-align: center; font-family: var(--font-display); font-weight: 600; color: var(--leaf-700); }
 .world { background: var(--forest); color: var(--white); padding-block: var(--section); }
 .world .section-title { color: var(--white); }
 .world .section-intro { color: rgba(255, 255, 255, 0.78); }

@@ -73,7 +73,7 @@
 .family__media img { width: 100%; height: 100%; object-fit: cover; transition: transform 640ms var(--ease); }
 .family:hover .family__media img { transform: scale(1.03); }
 .family__body { display: grid; gap: var(--space-3); align-content: center; max-width: 34rem; }
-.family__tag { font-size: var(--fs-small); font-weight: 600; color: var(--leaf); }
+.family__tag { font-size: var(--fs-small); font-weight: 600; color: var(--leaf-700); }
 .family__name { font-size: clamp(1.75rem, 2.6vw, 2.5rem); line-height: 1.05; }
 .family__title { font-family: var(--font-display); font-weight: 600; font-size: var(--fs-h3); line-height: 1.25; color: var(--forest-900); letter-spacing: -0.01em; }
 .family__text { color: var(--ink-muted); line-height: 1.55; }
@@ -89,12 +89,11 @@
 .system__steps { position: relative; display: grid; gap: var(--space-8); grid-template-columns: 1fr; padding-inline-start: 3.5rem; margin-block: clamp(2rem, 5vw, 4rem); }
 .system__track { position: absolute; inset-inline-start: 1.375rem; top: 1.5rem; bottom: 1.5rem; width: 2px; background: rgba(255, 255, 255, 0.14); overflow: hidden; }
 .system__track::before { content: ""; position: absolute; inset: 0; background: var(--leaf-bright); transform: scaleY(0); transform-origin: top; transition: transform 1.8s var(--ease); }
-.system__step { position: relative; display: grid; gap: 0.15rem; opacity: 0.55; transition: opacity 500ms var(--ease); transition-delay: calc(var(--i) * 300ms + 200ms); }
+.system__step { position: relative; display: grid; gap: 0.15rem; }
 .system__node { position: absolute; inset-inline-start: -3.5rem; top: -0.25rem; width: 2.875rem; height: 2.875rem; display: grid; place-items: center; border-radius: 50%; background: var(--forest); color: var(--leaf-bright); border: 2px solid rgba(255, 255, 255, 0.25); transition: border-color 500ms var(--ease), background-color 500ms var(--ease); transition-delay: calc(var(--i) * 300ms + 200ms); }
 .system__name { font-family: var(--font-display); font-weight: 700; font-size: 1.25rem; letter-spacing: -0.01em; }
 .system__verb { color: rgba(255, 255, 255, 0.78); }
 .system.is-inview .system__track::before { transform: scaleY(1); }
-.system.is-inview .system__step { opacity: 1; }
 .system.is-inview .system__node { border-color: var(--leaf-bright); background: var(--forest-600); }
 @media (min-width: 900px) {
   .system__steps { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: var(--space-6); padding-inline-start: 0; padding-block-start: 4.25rem; }
@@ -108,7 +107,6 @@
 .system__quote { max-width: 44rem; margin-inline: auto; padding: var(--space-6) var(--space-8); border-inline-start: 3px solid var(--leaf-bright); font-family: var(--font-display); font-weight: 500; font-size: var(--fs-h3); line-height: 1.35; letter-spacing: -0.01em; }
 .system__more { text-align: center; margin-block-start: var(--space-8); }
 .no-js .system__track::before, html:not(.js) .system__track::before { transform: none; }
-html:not(.js) .system__step { opacity: 1; }
 
 /* ---------- Focus Paulownia */
 .focus { position: relative; display: grid; min-height: min(90svh, 52rem); align-items: end; isolation: isolate; color: var(--ink); }
@@ -117,7 +115,7 @@ html:not(.js) .system__step { opacity: 1; }
 .focus__media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(14, 31, 22, 0.5), rgba(14, 31, 22, 0) 55%); }
 .focus__layout { padding-block: var(--space-12) 0; }
 .focus__panel { display: grid; gap: var(--space-4); max-width: 34rem; padding: clamp(1.5rem, 3.5vw, 2.75rem); background: var(--paper); border-radius: var(--radius-l) var(--radius-l) 0 0; }
-.focus__kicker { font-family: var(--font-display); font-weight: 700; font-size: var(--fs-small); color: var(--leaf); letter-spacing: 0.01em; }
+.focus__kicker { font-family: var(--font-display); font-weight: 700; font-size: var(--fs-small); color: var(--leaf-700); letter-spacing: 0.01em; }
 .focus__title { font-size: clamp(1.875rem, 3.2vw, 2.75rem); }
 .focus__text { color: var(--ink-muted); line-height: 1.55; }
 .focus__stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-4); padding-block: var(--space-4); border-block: 1px solid var(--line); }

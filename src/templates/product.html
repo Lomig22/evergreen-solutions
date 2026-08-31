@@ -13,8 +13,9 @@
     <div class="phero__media{{#if product.hero.portrait}} phero__media--portrait{{/if}}">
       {{#if product.hero.videoSrc}}
       <div class="media-loop" data-video data-video-auto>
-        <video muted playsinline loop preload="none" poster="{{product.hero.poster}}" width="{{product.hero.w}}" height="{{product.hero.h}}" aria-label="{{product.hero.alt}}">
+        <video muted playsinline loop preload="none" poster="{{product.hero.poster}}" width="{{product.hero.w}}" height="{{product.hero.h}}">
           <source src="{{product.hero.videoSrc}}" type="video/mp4">
+          <span class="visually-hidden">{{product.hero.alt}}</span>
         </video>
         <button class="media-loop__btn" type="button" data-video-play><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg><span class="visually-hidden">{{common.play}}</span></button>
       </div>
@@ -43,8 +44,9 @@
     <div class="phow__media">
       {{#if product.how.videoSrc}}
       <div class="media-loop" data-video data-video-auto>
-        <video muted playsinline loop preload="none" poster="{{product.how.poster}}" width="{{product.how.w}}" height="{{product.how.h}}" aria-label="{{product.how.alt}}">
+        <video muted playsinline loop preload="none" poster="{{product.how.poster}}" width="{{product.how.w}}" height="{{product.how.h}}">
           <source src="{{product.how.videoSrc}}" type="video/mp4">
+          <span class="visually-hidden">{{product.how.alt}}</span>
         </video>
         <button class="media-loop__btn" type="button" data-video-play><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg><span class="visually-hidden">{{common.play}}</span></button>
       </div>

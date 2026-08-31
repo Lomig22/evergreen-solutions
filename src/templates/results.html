@@ -28,8 +28,9 @@
     </ul>
     <div class="rwater__demo">
       <div class="media-loop media-loop--wide" data-video data-video-auto>
-        <video muted playsinline loop preload="none" poster="/assets/video/evergreen-hydrogel.webp" width="1060" height="600" aria-label="{{resultsPage.water.videoAlt}}">
+        <video muted playsinline loop preload="none" poster="/assets/video/evergreen-hydrogel.webp" width="1060" height="600">
           <source src="/assets/video/evergreen-hydrogel.mp4" type="video/mp4">
+          <span class="visually-hidden">{{resultsPage.water.videoAlt}}</span>
         </video>
         <button class="media-loop__btn" type="button" data-video-play><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg><span class="visually-hidden">{{common.play}}</span></button>
       </div>

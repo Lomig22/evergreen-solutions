@@ -1,0 +1,7 @@
+# Assets bruts du client (1,25 Go, vidéos > 100 Mo) : hors dépôt, conservés localement dans brief/
+brief/
+# Sorties de build et fichiers temporaires
+dist/
+node_modules/
+.DS_Store
+*.log

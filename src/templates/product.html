@@ -1,0 +1,167 @@
+<section class="phero">
+  <div class="container container--wide phero__grid">
+    <div class="phero__body">
+      <p class="phero__tag">{{product.tag}}</p>
+      <h1 class="phero__name">{{product.name}}</h1>
+      <p class="phero__tagline">{{product.tagline}}</p>
+      <p class="phero__lede">{{product.lede}}</p>
+      <p class="phero__stat"><strong>{{product.hero.value}}</strong><span>{{product.hero.label}}</span></p>
+      <div class="phero__actions">
+        <a class="btn btn--primary" href="{{url '/contact/'}}">{{common.cta}}</a>
+      </div>
+    </div>
+    <div class="phero__media{{#if product.hero.portrait}} phero__media--portrait{{/if}}">
+      {{#if product.hero.videoSrc}}
+      <div class="media-loop" data-video data-video-auto>
+        <video muted playsinline loop preload="none" poster="{{product.hero.poster}}" width="{{product.hero.w}}" height="{{product.hero.h}}" aria-label="{{product.hero.alt}}">
+          <source src="{{product.hero.videoSrc}}" type="video/mp4">
+        </video>
+        <button class="media-loop__btn" type="button" data-video-play><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg><span class="visually-hidden">{{common.play}}</span></button>
+      </div>
+      {{else}}
+      <picture>
+        <source type="image/webp" srcset="{{product.hero.img}}-800.webp 800w, {{product.hero.img}}-1400.webp 1400w" sizes="(min-width: 900px) 48vw, 100vw">
+        <img src="{{product.hero.img}}-1400.jpg" srcset="{{product.hero.img}}-800.jpg 800w, {{product.hero.img}}-1400.jpg 1400w" sizes="(min-width: 900px) 48vw, 100vw" width="{{product.hero.w}}" height="{{product.hero.h}}" alt="{{product.hero.alt}}" fetchpriority="high" decoding="async">
+      </picture>
+      {{/if}}
+    </div>
+  </div>
+</section>
+
+<section class="pproblem">
+  <div class="container pproblem__grid">
+    <h2 class="section-title">{{product.problem.title}}</h2>
+    <div class="pproblem__body">
+      <p>{{product.problem.text}}</p>
+      {{#if product.problem.value}}<p class="pproblem__stat"><strong>{{product.problem.value}}</strong> <span>{{product.problem.valueLabel}}</span></p>{{/if}}
+    </div>
+  </div>
+</section>
+
+<section class="phow">
+  <div class="container container--wide phow__grid">
+    <div class="phow__media">
+      {{#if product.how.videoSrc}}
+      <div class="media-loop" data-video data-video-auto>
+        <video muted playsinline loop preload="none" poster="{{product.how.poster}}" width="{{product.how.w}}" height="{{product.how.h}}" aria-label="{{product.how.alt}}">
+          <source src="{{product.how.videoSrc}}" type="video/mp4">
+        </video>
+        <button class="media-loop__btn" type="button" data-video-play><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg><span class="visually-hidden">{{common.play}}</span></button>
+      </div>
+      {{else}}
+      <picture>
+        <source type="image/webp" srcset="{{product.how.img}}-800.webp 800w, {{product.how.img}}-1400.webp 1400w" sizes="(min-width: 900px) 44vw, 100vw">
+        <img src="{{product.how.img}}-1400.jpg" srcset="{{product.how.img}}-800.jpg 800w, {{product.how.img}}-1400.jpg 1400w" sizes="(min-width: 900px) 44vw, 100vw" width="{{product.how.w}}" height="{{product.how.h}}" alt="{{product.how.alt}}" loading="lazy" decoding="async">
+      </picture>
+      {{/if}}
+      {{#if product.how.caption}}<p class="phow__caption">{{product.how.caption}}</p>{{/if}}
+    </div>
+    <div class="phow__body">
+      <h2 class="section-title">{{product.how.title}}</h2>
+      <ol class="phow__steps">
+        {{#each product.how.steps}}<li class="phow__step">
+          <span class="phow__num" aria-hidden="true">{{@index1}}</span>
+          <div><strong>{{title}}</strong><p>{{text}}</p></div>
+        </li>
+        {{/each}}
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="pbenefits">
+  <div class="container">
+    <h2 class="section-title">{{product.benefits.title}}</h2>
+    <ul class="pbenefits__grid">
+      {{#each product.benefits.items}}<li class="pbenefit">
+        {{#if value}}<span class="pbenefit__value">{{value}}</span>{{else}}<svg class="icon icon--xl pbenefit__icon" aria-hidden="true"><use href="#i-{{icon}}"/></svg>{{/if}}
+        <h3 class="pbenefit__title">{{title}}</h3>
+        <p>{{text}}</p>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>
+
+<section class="papps">
+  <div class="container papps__grid">
+    <h2 class="section-title">{{product.apps.title}}</h2>
+    <div>
+      <ul class="chips">
+        {{#each product.apps.items}}<li class="chip">{{this}}</li>
+        {{/each}}
+      </ul>
+      {{#if product.apps.note}}<p class="papps__note">{{product.apps.note}}</p>{{/if}}
+    </div>
+  </div>
+</section>
+
+{{#if product.compare}}
+<section class="pcompare">
+  <div class="container">
+    <h2 class="section-title">{{product.compare.title}}</h2>
+    <p class="section-intro">{{product.compare.intro}}</p>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="{{product.compare.title}}">
+      <table class="ctable">
+        <thead><tr>{{#each product.compare.head}}<th scope="col">{{this}}</th>{{/each}}</tr></thead>
+        <tbody>
+          {{#each product.compare.rows}}<tr>{{#each cells}}{{#if @first}}<th scope="row">{{this}}</th>{{else}}<td>{{this}}</td>{{/if}}{{/each}}</tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+    {{#if product.compare.note}}<p class="pcompare__note">{{product.compare.note}}</p>{{/if}}
+  </div>
+</section>
+{{/if}}
+
+{{#if product.yields}}
+<section class="pyields">
+  <div class="container">
+    <h2 class="section-title">{{product.yields.title}}</h2>
+    <p class="section-intro">{{product.yields.intro}}</p>
+    {{> yields}}
+  </div>
+</section>
+{{/if}}
+
+{{#if product.proofs}}
+<section class="pproofs">
+  <div class="container">
+    <h2 class="section-title">{{product.proofs.title}}</h2>
+    <div class="pproofs__grid">
+      {{#each product.proofs.items}}<div class="pproof">
+        {{#if img}}<img src="{{img}}" alt="{{imgAlt}}" width="{{w}}" height="{{h}}" loading="lazy" decoding="async">{{/if}}
+        <h3 class="pproof__title">{{title}}</h3>
+        <p>{{text}}</p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+<section class="faq">
+  <div class="container faq__grid">
+    <h2 class="section-title">{{product.faq.title}}</h2>
+    <div class="faq__list">
+      {{#each product.faq.items}}<details class="faq__item" name="faq">
+        <summary class="faq__q">{{q}}<svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+        <div class="faq__a"><p>{{a}}</p></div>
+      </details>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="related">
+  <div class="container">
+    <h2 class="related__title">{{relatedTitle}}</h2>
+    <ul class="related__list">
+      {{#each nav.families}}{{#unless (eq path product.path)}}<li><a class="related__item" href="{{url path}}"><strong>{{name}}</strong><span>{{fact}}</span></a></li>
+      {{/unless}}{{/each}}
+    </ul>
+  </div>
+</section>
+
+{{> cta}}

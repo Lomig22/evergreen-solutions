@@ -1,0 +1,7 @@
+<details class="lang" data-lang>
+  <summary class="lang__current"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg><span class="lang__code">{{lang}}</span><span class="visually-hidden">{{common.language}}</span></summary>
+  <ul class="lang__list">
+    {{#each alternates}}<li><a class="lang__link" href="{{path}}" lang="{{code}}" hreflang="{{code}}"{{#if current}} aria-current="true"{{/if}}>{{name}}</a></li>
+    {{else}}{{#each site.langs}}<li><a class="lang__link" href="{{#if (eq code site.defaultLang)}}/{{else}}/{{code}}/{{/if}}" lang="{{code}}" hreflang="{{code}}">{{name}}</a></li>{{/each}}{{/each}}
+  </ul>
+</details>

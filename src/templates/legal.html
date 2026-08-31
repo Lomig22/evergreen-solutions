@@ -1,0 +1,12 @@
+<section class="page-intro">
+  <div class="container">
+    <h1 class="page-intro__title">{{page.h1}}</h1>
+    <p class="page-intro__lede">{{page.lede}}</p>
+  </div>
+</section>
+{{#if page.is.legal}}<section class="section"><div class="container prose">
+  <h2>{{legal.editorTitle}}</h2>
+  <p>{{site.name}}<br>{{org.address.streetAddress}}, {{org.address.postalCode}} {{org.address.addressLocality}}, {{org.address.countryName}}<br>{{org.rcs}}<br>{{common.phoneLabel}} : <a href="tel:{{org.phoneE164}}">{{org.phoneDisplay}}</a><br>{{common.emailLabel}} : <a href="mailto:{{org.email}}">{{org.email}}</a></p>
+  <p>{{legal.pending}}</p>
+</div></section>{{/if}}
+{{> cta}}

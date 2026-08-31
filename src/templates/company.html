@@ -1,0 +1,87 @@
+<section class="page-intro">
+  <div class="container">
+    <h1 class="page-intro__title">{{companyPage.h1}}</h1>
+    <p class="page-intro__lede">{{companyPage.lede}}</p>
+  </div>
+</section>
+
+<section class="cvision">
+  <div class="container cvision__grid">
+    <h2 class="section-title">{{companyPage.vision.title}}</h2>
+    <div class="cvision__body">
+      <p class="lead">{{companyPage.vision.lead}}</p>
+      <p>{{companyPage.vision.text}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="method">
+  <div class="container">
+    <h2 class="section-title">{{companyPage.method.title}}</h2>
+    <ol class="method__steps">
+      {{#each companyPage.method.steps}}<li class="method__step">
+        <span class="phow__num" aria-hidden="true">{{@index1}}</span>
+        <h3>{{title}}</h3>
+        <p>{{text}}</p>
+      </li>
+      {{/each}}
+    </ol>
+  </div>
+</section>
+
+<section class="team">
+  <div class="container">
+    <h2 class="section-title">{{companyPage.direction.title}}</h2>
+    <ul class="team__grid team__grid--direction">
+      {{#each companyPage.direction.people}}<li class="person">
+        <img class="person__photo" src="/assets/img/team/{{slug}}.jpg" width="200" height="200" alt="" loading="lazy" decoding="async">
+        <strong class="person__name">{{name}}</strong>
+        <span class="person__role">{{role}}</span>
+      </li>
+      {{/each}}
+    </ul>
+    <h2 class="section-title team__subtitle">{{companyPage.experts.title}}</h2>
+    <p class="section-intro">{{companyPage.experts.intro}}</p>
+    <ul class="team__grid">
+      {{#each companyPage.experts.people}}<li class="person person--sm">
+        <img class="person__photo" src="/assets/img/team/{{slug}}.jpg" width="140" height="140" alt="" loading="lazy" decoding="async">
+        <strong class="person__name">{{name}}</strong>
+        <span class="person__role">{{role}}</span>
+      </li>
+      {{/each}}
+    </ul>
+    <p class="team__domains">{{companyPage.experts.domains}}</p>
+  </div>
+</section>
+
+<section class="world">
+  <div class="container world__grid">
+    <div class="world__body">
+      <h2 class="section-title">{{companyPage.world.title}}</h2>
+      <p class="section-intro">{{companyPage.world.intro}}</p>
+      <ul class="world__regions">
+        {{#each companyPage.world.regions}}<li><strong>{{name}}</strong><span>{{countries}}</span></li>
+        {{/each}}
+      </ul>
+    </div>
+    <div class="world__globe">
+      <img src="/assets/img/brand/globe-flags.png" width="308" height="308" alt="" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
+<section class="pwall">
+  <div class="container">
+    <h2 class="section-title">{{companyPage.partners.title}}</h2>
+    <p class="section-intro">{{companyPage.partners.intro}}</p>
+    <ul class="pwall__grid">
+      {{#each data.partners}}<li class="pwall__item">
+        <img src="/assets/img/partners/{{slug}}.webp" alt="{{name}}" loading="lazy" decoding="async">
+        <span class="pwall__caption">{{name}} · {{country}}</span>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>
+
+{{> cta}}

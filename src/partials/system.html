@@ -1,0 +1,19 @@
+<section class="system" aria-labelledby="system-title" data-system>
+  <div class="container">
+    <div class="section-head section-head--center">
+      <h2 class="section-title" id="system-title">{{home.system.title}}</h2>
+      <p class="section-intro">{{home.system.intro}}</p>
+    </div>
+    <ol class="system__steps">
+      <li class="system__track" aria-hidden="true"></li>
+      {{#each home.system.steps}}<li class="system__step" style="--i:{{@index}}">
+        <span class="system__node"><svg class="icon icon--lg" aria-hidden="true"><use href="#i-{{icon}}"/></svg></span>
+        <strong class="system__name">{{name}}</strong>
+        <span class="system__verb">{{verb}}</span>
+      </li>
+      {{/each}}
+    </ol>
+    <blockquote class="system__quote"><p>{{home.system.quote}}</p></blockquote>
+    <p class="system__more"><a class="link link--light" href="{{url '/solutions/'}}">{{home.system.link}}</a></p>
+  </div>
+</section>

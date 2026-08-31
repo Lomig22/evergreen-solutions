@@ -1,0 +1,105 @@
+<section class="page-intro page-intro--contact">
+  <div class="container">
+    <h1 class="page-intro__title">{{contactPage.h1}}</h1>
+    <p class="page-intro__lede">{{contactPage.lede}}</p>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="container contact__grid">
+    <form class="cform" data-form method="POST" action="https://formspree.io/f/FORM_ID_A_REMPLACER" novalidate>
+      <ol class="cform__progress" aria-hidden="true">
+        <li class="is-active" data-progress="1"><span>1</span>{{contactPage.form.step1Label}}</li>
+        <li data-progress="2"><span>2</span>{{contactPage.form.step2Label}}</li>
+      </ol>
+
+      <fieldset class="cform__step" data-step="1">
+        <legend class="cform__legend">{{contactPage.form.step1Title}}</legend>
+        <div class="cform__field">
+          <label for="f-culture">{{contactPage.form.culture}}</label>
+          <input id="f-culture" name="culture" type="text" required placeholder="{{contactPage.form.culturePh}}">
+          <p class="cform__error">{{contactPage.form.required}}</p>
+        </div>
+        <div class="cform__row">
+          <div class="cform__field">
+            <label for="f-pays">{{contactPage.form.country}}</label>
+            <input id="f-pays" name="pays" type="text" required list="countries" placeholder="{{contactPage.form.countryPh}}">
+            <datalist id="countries">{{#each contactPage.form.countryList}}<option value="{{this}}"></option>{{/each}}</datalist>
+            <p class="cform__error">{{contactPage.form.required}}</p>
+          </div>
+          <div class="cform__field">
+            <label for="f-surface">{{contactPage.form.area}}</label>
+            <input id="f-surface" name="surface" type="text" inputmode="decimal" placeholder="{{contactPage.form.areaPh}}">
+          </div>
+        </div>
+        <fieldset class="cform__field cform__choices">
+          <legend>{{contactPage.form.problem}}</legend>
+          {{#each contactPage.form.problems}}<label class="choice"><input type="radio" name="probleme" value="{{value}}" {{#if @first}}required{{/if}}><span>{{label}}</span></label>
+          {{/each}}
+          <p class="cform__error">{{contactPage.form.requiredChoice}}</p>
+        </fieldset>
+        <fieldset class="cform__field cform__choices">
+          <legend>{{contactPage.form.interest}}</legend>
+          {{#each contactPage.form.interests}}<label class="choice"><input type="checkbox" name="solutions[]" value="{{value}}"><span>{{label}}</span></label>
+          {{/each}}
+        </fieldset>
+        <div class="cform__nav">
+          <button class="btn btn--primary" type="button" data-form-next>{{contactPage.form.next}}</button>
+        </div>
+      </fieldset>
+
+      <fieldset class="cform__step" data-step="2" hidden>
+        <legend class="cform__legend">{{contactPage.form.step2Title}}</legend>
+        <div class="cform__row">
+          <div class="cform__field">
+            <label for="f-nom">{{contactPage.form.name}}</label>
+            <input id="f-nom" name="nom" type="text" required autocomplete="name">
+            <p class="cform__error">{{contactPage.form.required}}</p>
+          </div>
+          <div class="cform__field">
+            <label for="f-org">{{contactPage.form.org}}</label>
+            <input id="f-org" name="organisation" type="text" autocomplete="organization">
+          </div>
+        </div>
+        <div class="cform__row">
+          <div class="cform__field">
+            <label for="f-email">{{contactPage.form.email}}</label>
+            <input id="f-email" name="email" type="email" required autocomplete="email">
+            <p class="cform__error">{{contactPage.form.emailError}}</p>
+          </div>
+          <div class="cform__field">
+            <label for="f-tel">{{contactPage.form.phone}}</label>
+            <input id="f-tel" name="telephone" type="tel" autocomplete="tel">
+          </div>
+        </div>
+        <div class="cform__field">
+          <label for="f-msg">{{contactPage.form.message}}</label>
+          <textarea id="f-msg" name="message" rows="5" placeholder="{{contactPage.form.messagePh}}"></textarea>
+        </div>
+        <p class="cform__privacy">{{contactPage.form.privacy}}</p>
+        <div class="cform__nav">
+          <button class="btn btn--outline" type="button" data-form-back>{{contactPage.form.back}}</button>
+          <button class="btn btn--primary" type="submit">{{contactPage.form.submit}}</button>
+        </div>
+      </fieldset>
+
+      <div class="cform__success" data-form-success hidden>
+        <svg class="icon icon--xl" aria-hidden="true"><use href="#i-badge"/></svg>
+        <h2>{{contactPage.form.successTitle}}</h2>
+        <p>{{contactPage.form.successText}}</p>
+      </div>
+    </form>
+
+    <aside class="contact__aside">
+      <h2 class="contact__aside-title">{{contactPage.aside.title}}</h2>
+      <p><strong>{{org.contactName}}</strong><br>{{org.contactRole}}</p>
+      <ul class="contact__list">
+        <li><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:{{org.phoneE164}}">{{org.phoneDisplay}}</a></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:{{org.email}}">{{org.email}}</a></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:{{org.email2}}">{{org.email2}}</a></li>
+        <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>{{org.address.streetAddress}}<br>{{org.address.postalCode}} {{org.address.addressLocality}}, {{org.address.countryName}}</span></li>
+      </ul>
+      <p class="contact__note">{{contactPage.aside.note}}</p>
+    </aside>
+  </div>
+</section>

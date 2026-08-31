@@ -1,0 +1,37 @@
+<header class="site-header" data-header>
+  <div class="site-header__inner container container--wide">
+    <a class="brand" href="{{url '/'}}" aria-label="{{site.name}} — {{common.home}}">
+      <img class="brand__logo" src="/assets/img/brand/logo-h96.png" srcset="/assets/img/brand/logo-h96.png 1x, /assets/img/brand/logo-h192.png 2x" width="175" height="96" alt="{{site.name}}">
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="{{common.mainNav}}" data-nav>
+      <ul class="site-nav__list">
+        <li class="site-nav__item site-nav__item--mega" data-mega>
+          <button class="site-nav__link site-nav__link--btn{{#if page.is.solutions}} is-active{{/if}}" type="button" aria-expanded="false" aria-controls="mega-solutions">{{nav.solutions}}<svg class="icon icon--chev" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+          <div class="mega" id="mega-solutions">
+            <ul class="mega__list">
+              {{#each nav.families}}<li><a class="mega__item" href="{{url path}}"><strong class="mega__name">{{name}}</strong><span class="mega__tag">{{tag}}</span><span class="mega__fact">{{fact}}</span></a></li>
+              {{/each}}
+            </ul>
+            <a class="mega__all" href="{{url '/solutions/'}}">{{nav.allSolutions}}</a>
+          </div>
+        </li>
+        <li class="site-nav__item"><a class="site-nav__link" href="{{url '/paulownia/'}}"{{#if page.is.paulownia}} aria-current="page"{{/if}}>{{nav.paulownia}}</a></li>
+        <li class="site-nav__item"><a class="site-nav__link" href="{{url '/resultats/'}}"{{#if page.is.results}} aria-current="page"{{/if}}>{{nav.results}}</a></li>
+        <li class="site-nav__item"><a class="site-nav__link" href="{{url '/entreprise/'}}"{{#if page.is.company}} aria-current="page"{{/if}}>{{nav.company}}</a></li>
+        <li class="site-nav__item"><a class="site-nav__link" href="{{url '/contact/'}}"{{#if page.is.contact}} aria-current="page"{{/if}}>{{nav.contact}}</a></li>
+      </ul>
+      <div class="site-nav__mobile-extra">
+        <a class="btn btn--primary" href="{{url '/contact/'}}">{{common.cta}}</a>
+        <ul class="site-nav__langs" aria-label="{{common.language}}">
+          {{#each alternates}}<li><a href="{{path}}" lang="{{code}}" hreflang="{{code}}"{{#if current}} aria-current="true"{{/if}}>{{name}}</a></li>
+          {{else}}{{#each site.langs}}<li><a href="{{#if (eq code site.defaultLang)}}/{{else}}/{{code}}/{{/if}}" lang="{{code}}" hreflang="{{code}}">{{name}}</a></li>{{/each}}{{/each}}
+        </ul>
+      </div>
+    </nav>
+    <div class="site-header__tools">
+      {{> lang-switcher}}
+      <a class="btn btn--primary btn--sm site-header__cta" href="{{url '/contact/'}}">{{common.ctaShort}}</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span class="nav-toggle__bars" aria-hidden="true"></span><span class="visually-hidden">{{common.menu}}</span></button>
+    </div>
+  </div>
+</header>

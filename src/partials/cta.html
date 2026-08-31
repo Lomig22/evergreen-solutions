@@ -1,0 +1,10 @@
+<section class="cta-final" aria-labelledby="cta-title">
+  <div class="container cta-final__inner">
+    <h2 class="cta-final__title" id="cta-title">{{cta.title}}</h2>
+    <p class="cta-final__text">{{cta.text}}</p>
+    <div class="cta-final__actions">
+      <a class="btn btn--light btn--lg" href="{{url '/contact/'}}">{{cta.button}}</a>
+      <p class="cta-final__phone">{{cta.or}} <a href="tel:{{org.phoneE164}}">{{org.phoneDisplay}}</a></p>
+    </div>
+  </div>
+</section>

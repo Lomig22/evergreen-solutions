@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" dir="{{dir}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{page.title}}</title>
+<meta name="description" content="{{page.description}}">
+<link rel="canonical" href="{{page.url}}">
+{{#each alternates}}<link rel="alternate" hreflang="{{code}}" href="{{href}}">
+{{/each}}{{#if alternates}}<link rel="alternate" hreflang="x-default" href="{{xDefault}}">
+{{/if}}{{#if page.noindex}}<meta name="robots" content="noindex">
+{{/if}}<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{site.name}}">
+<meta property="og:title" content="{{page.title}}">
+<meta property="og:description" content="{{page.description}}">
+<meta property="og:url" content="{{page.url}}">
+<meta property="og:image" content="{{site.url}}{{#if page.image}}{{page.image}}{{else}}/assets/img/brand/og-default.jpg{{/if}}">
+<meta property="og:locale" content="{{locale}}">
+{{#each alternates}}{{#unless current}}<meta property="og:locale:alternate" content="{{locale}}">
+{{/unless}}{{/each}}<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#173C29">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/assets/img/brand/favicon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/assets/img/brand/favicon-180.png">
+<link rel="preload" href="/assets/fonts/BricolageGrotesque-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/SourceSans3-var.woff2" as="font" type="font/woff2" crossorigin>
+{{#if isRtl}}<link rel="preload" href="/assets/fonts/IBMPlexSansArabic-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/IBMPlexSansArabic-Bold.woff2" as="font" type="font/woff2" crossorigin>
+{{/if}}<link rel="stylesheet" href="{{assets.css}}">
+<script>document.documentElement.classList.add('js')</script>
+<noscript><style>.site-header{position:static;background:var(--paper);color:var(--ink)}.hero{--split:50%}</style></noscript>
+{{{jsonld}}}
+</head>
+<body class="page-{{page.id}}{{#if page.is.home}} has-hero{{/if}}">
+<a class="skip-link" href="#main">{{common.skip}}</a>
+{{> icons}}
+{{> header}}
+<main id="main" tabindex="-1">
+{{{content}}}
+</main>
+{{> footer}}
+<script src="{{assets.js}}" defer></script>
+</body>
+</html>

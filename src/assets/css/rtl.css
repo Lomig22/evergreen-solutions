@@ -1,0 +1,9 @@
+/* ==========================================================================
+   Ajustements RTL (arabe) — le reste passe par les propriétés logiques
+   ========================================================================== */
+[dir="rtl"] .icon--dir, [dir="rtl"] .icon--arrow { transform: scaleX(-1); }
+[dir="rtl"] .hero__title-b { text-align: start; }
+[dir="rtl"] .lang__current { letter-spacing: 0; text-transform: none; }
+[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3, [dir="rtl"] .hero__title { letter-spacing: 0; }
+[dir="rtl"] .stat__value, [dir="rtl"] .family__value { letter-spacing: 0; }
+[dir="rtl"] .nav-toggle__bars, [dir="rtl"] .nav-toggle__bars::before, [dir="rtl"] .nav-toggle__bars::after { left: auto; right: 50%; margin-left: 0; margin-right: -0.6875rem; }

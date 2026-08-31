@@ -1,0 +1,93 @@
+<section class="page-intro">
+  <div class="container">
+    <h1 class="page-intro__title">{{resultsPage.h1}}</h1>
+    <p class="page-intro__lede">{{resultsPage.lede}}</p>
+  </div>
+</section>
+
+<section class="pyields">
+  <div class="container">
+    <h2 class="section-title">{{resultsPage.yieldsTitle}}</h2>
+    <p class="section-intro">{{resultsPage.yieldsIntro}}</p>
+    {{> yields}}
+  </div>
+</section>
+
+<section class="rwater">
+  <div class="container">
+    <div class="section-head section-head--split">
+      <h2 class="section-title">{{resultsPage.water.title}}</h2>
+      <p class="section-intro">{{resultsPage.water.intro}}</p>
+    </div>
+    <ul class="numbers__list numbers__list--4">
+      {{#each resultsPage.water.stats}}<li class="stat">
+        <span class="stat__value"><span class="stat__num">{{value}}</span></span>
+        <span class="stat__label">{{label}}</span>
+      </li>
+      {{/each}}
+    </ul>
+    <div class="rwater__demo">
+      <div class="media-loop media-loop--wide" data-video data-video-auto>
+        <video muted playsinline loop preload="none" poster="/assets/video/evergreen-hydrogel.webp" width="1060" height="600" aria-label="{{resultsPage.water.videoAlt}}">
+          <source src="/assets/video/evergreen-hydrogel.mp4" type="video/mp4">
+        </video>
+        <button class="media-loop__btn" type="button" data-video-play><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg><span class="visually-hidden">{{common.play}}</span></button>
+      </div>
+      <p class="rwater__caption">{{resultsPage.water.videoCaption}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="rsoil">
+  <div class="container rsoil__grid">
+    <div>
+      <h2 class="section-title">{{resultsPage.soil.title}}</h2>
+      <p class="section-intro">{{resultsPage.soil.intro}}</p>
+      <p class="rsoil__note">{{resultsPage.soil.note}}</p>
+    </div>
+    <ul class="rsoil__bars">
+      {{#each resultsPage.soil.items}}<li class="rsoil__row">
+        <span class="rsoil__crop">{{label}}</span>
+        <span class="rsoil__bar"><span style="--w:{{pct}}%"></span></span>
+        <span class="rsoil__val">{{value}}</span>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>
+
+<section class="rbefore">
+  <div class="container container--wide">
+    <h2 class="section-title">{{resultsPage.before.title}}</h2>
+    <div class="rbefore__grid">
+      <figure class="beforeafter">
+        <img src="/assets/img/results/avec-sans-evergreen.jpg" width="1581" height="816" alt="{{resultsPage.before.aAlt}}" loading="lazy" decoding="async">
+        <figcaption>{{resultsPage.before.aCaption}}</figcaption>
+      </figure>
+      <figure class="beforeafter">
+        <img src="/assets/img/paulownia/un-an-six-ans.jpg" width="1080" height="506" alt="{{resultsPage.before.bAlt}}" loading="lazy" decoding="async">
+        <figcaption>{{resultsPage.before.bCaption}}</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="rcerts">
+  <div class="container">
+    <h2 class="section-title">{{resultsPage.certs.title}}</h2>
+    <div class="rcerts__grid">
+      <div class="rcert rcert--imgs">
+        <img src="/assets/img/certs/sohiscert.png" width="220" height="190" alt="SOHISCERT" loading="lazy" decoding="async">
+        <img src="/assets/img/certs/eu-bio.png" width="202" height="188" alt="{{resultsPage.certs.euBioAlt}}" loading="lazy" decoding="async">
+      </div>
+      {{#each resultsPage.certs.items}}<div class="rcert">
+        <h3 class="rcert__title">{{title}}</h3>
+        <p>{{text}}</p>
+      </div>
+      {{/each}}
+    </div>
+    <p class="rcerts__note">{{resultsPage.certs.note}}</p>
+  </div>
+</section>
+
+{{> cta}}

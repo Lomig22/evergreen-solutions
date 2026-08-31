@@ -1,0 +1,25 @@
+<div class="yields" data-yields>
+  <div class="yields__legend" role="list" aria-label="{{yieldsUi.legendLabel}}">
+    <span role="listitem" class="yields__key yields__key--ours"><i aria-hidden="true"></i>{{yieldsUi.ours}}</span>
+    <span role="listitem" class="yields__key yields__key--world"><i aria-hidden="true"></i>{{yieldsUi.world}}</span>
+  </div>
+  <div class="yields__tabs" role="tablist" aria-label="{{yieldsUi.tabsLabel}}">
+    {{#each yieldsData.groups}}<button class="yields__tab" role="tab" id="ytab-{{@index}}" aria-controls="ypanel-{{@index}}" aria-selected="{{#if @first}}true{{else}}false{{/if}}" {{#unless @first}}tabindex="-1"{{/unless}} data-yields-tab>{{name}}</button>
+    {{/each}}
+  </div>
+  {{#each yieldsData.groups}}<div class="yields__panel" role="tabpanel" id="ypanel-{{@index}}" aria-labelledby="ytab-{{@index}}" {{#unless @first}}hidden{{/unless}}>
+    <ul class="yields__rows">
+      {{#each rows}}<li class="yields__row">
+        <span class="yields__crop">{{label}}</span>
+        <span class="yields__bars">
+          <span class="yields__bar yields__bar--ours" style="--w:100%"><span class="yields__val">{{oursLabel}}</span></span>
+          <span class="yields__bar yields__bar--world" style="--w:{{worldPct}}%"><span class="yields__val">{{worldLabel}}</span></span>
+        </span>
+        <span class="yields__mult" aria-label="{{multLabel}}">{{mult}}</span>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+  {{/each}}
+  <p class="yields__note">{{yieldsUi.note}}</p>
+</div>

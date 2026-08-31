@@ -1,0 +1,27 @@
+<section class="families" aria-labelledby="families-title">
+  <div class="container container--wide">
+    {{#unless page.is.solutions}}<div class="section-head">
+      <h2 class="section-title" id="families-title">{{home.families.title}}</h2>
+      <p class="section-intro">{{home.families.intro}}</p>
+    </div>{{/unless}}
+    <ul class="families__list">
+      {{#each home.families.items}}<li class="family">
+        <a class="family__media" href="{{url path}}" tabindex="-1" aria-hidden="true">
+          <picture>
+            <source type="image/webp" srcset="/assets/img/families/{{img}}-800.webp 800w, /assets/img/families/{{img}}-1400.webp 1400w" sizes="(min-width: 900px) 58vw, 100vw">
+            <img src="/assets/img/families/{{img}}-1400.jpg" srcset="/assets/img/families/{{img}}-800.jpg 800w, /assets/img/families/{{img}}-1400.jpg 1400w" sizes="(min-width: 900px) 58vw, 100vw" width="1400" height="875" alt="{{alt}}" loading="lazy" decoding="async">
+          </picture>
+        </a>
+        <div class="family__body">
+          <p class="family__tag">{{tag}}</p>
+          <h3 class="family__name">{{name}}</h3>
+          <p class="family__title">{{title}}</p>
+          <p class="family__text">{{text}}</p>
+          <p class="family__stat"><strong class="family__value">{{value}}</strong> <span class="family__value-label">{{valueLabel}}</span></p>
+          <a class="link family__link" href="{{url path}}">{{link}}</a>
+        </div>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>

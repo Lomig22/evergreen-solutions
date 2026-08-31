@@ -1,0 +1,137 @@
+{
+  "name": "Green Solutions",
+  "url": "https://evergreen-solutions.vercel.app",
+  "defaultLang": "fr",
+  "langs": [
+    {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "locale": "fr_FR"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr",
+      "locale": "en_GB"
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "dir": "ltr",
+      "locale": "es_ES"
+    },
+    {
+      "code": "pt",
+      "name": "Português",
+      "dir": "ltr",
+      "locale": "pt_PT"
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "locale": "de_DE"
+    },
+    {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "locale": "it_IT"
+    },
+    {
+      "code": "ar",
+      "name": "العربية",
+      "dir": "rtl",
+      "locale": "ar_AR"
+    }
+  ],
+  "pages": [
+    {
+      "id": "home",
+      "path": "/",
+      "template": "home.html"
+    },
+    {
+      "id": "solutions",
+      "path": "/solutions/",
+      "template": "solutions.html"
+    },
+    {
+      "id": "evergreen",
+      "path": "/solutions/evergreen-ecosorb/",
+      "template": "product.html",
+      "product": "evergreen"
+    },
+    {
+      "id": "ecofert",
+      "path": "/solutions/ecofert/",
+      "template": "product.html",
+      "product": "ecofert"
+    },
+    {
+      "id": "napema",
+      "path": "/solutions/napema/",
+      "template": "product.html",
+      "product": "napema"
+    },
+    {
+      "id": "watervital",
+      "path": "/solutions/water-vital/",
+      "template": "product.html",
+      "product": "watervital"
+    },
+    {
+      "id": "paulownia",
+      "path": "/paulownia/",
+      "template": "paulownia.html",
+      "product": "paulownia"
+    },
+    {
+      "id": "results",
+      "path": "/resultats/",
+      "template": "results.html"
+    },
+    {
+      "id": "company",
+      "path": "/entreprise/",
+      "template": "company.html"
+    },
+    {
+      "id": "contact",
+      "path": "/contact/",
+      "template": "contact.html"
+    },
+    {
+      "id": "legal",
+      "path": "/mentions-legales/",
+      "template": "legal.html",
+      "noindex": true
+    },
+    {
+      "id": "notfound",
+      "path": "/404.html",
+      "template": "404.html",
+      "output": "404.html",
+      "defaultOnly": true,
+      "noindex": true
+    }
+  ],
+  "css": [
+    "tokens.css",
+    "base.css",
+    "components.css",
+    "pages.css",
+    "products.css",
+    "rtl.css"
+  ],
+  "js": [
+    "nav.js",
+    "hero.js",
+    "counters.js",
+    "system.js",
+    "tabs.js",
+    "media.js",
+    "form.js"
+  ]
+}

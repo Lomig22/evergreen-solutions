@@ -1,0 +1,145 @@
+<section class="phero">
+  <div class="container container--wide phero__grid">
+    <div class="phero__body">
+      <p class="phero__tag">{{product.tag}}</p>
+      <h1 class="phero__name">{{product.name}}</h1>
+      <p class="phero__tagline">{{product.tagline}}</p>
+      <p class="phero__lede">{{product.lede}}</p>
+      <p class="phero__stat"><strong>{{product.hero.value}}</strong><span>{{product.hero.label}}</span></p>
+      <div class="phero__actions"><a class="btn btn--primary" href="{{url '/contact/'}}">{{common.cta}}</a></div>
+    </div>
+    <div class="phero__media">
+      <picture>
+        <source type="image/webp" srcset="{{product.hero.img}}-800.webp 800w, {{product.hero.img}}-1400.webp 1400w" sizes="(min-width: 900px) 48vw, 100vw">
+        <img src="{{product.hero.img}}-1400.jpg" srcset="{{product.hero.img}}-800.jpg 800w, {{product.hero.img}}-1400.jpg 1400w" sizes="(min-width: 900px) 48vw, 100vw" width="{{product.hero.w}}" height="{{product.hero.h}}" alt="{{product.hero.alt}}" fetchpriority="high" decoding="async">
+      </picture>
+    </div>
+  </div>
+</section>
+
+<section class="numbers" aria-label="{{product.statsLabel}}">
+  <div class="container">
+    <ul class="numbers__list numbers__list--4">
+      {{#each product.stats}}<li class="stat">
+        <span class="stat__value"><span class="stat__num">{{value}}</span></span>
+        <span class="stat__label">{{label}}</span>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>
+
+<section class="growth">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">{{product.growth.title}}</h2>
+      <p class="section-intro">{{product.growth.intro}}</p>
+    </div>
+    <ol class="growth__timeline">
+      {{#each product.growth.items}}<li class="growth__item">
+        <img src="/assets/img/paulownia/year-{{img}}.jpg" width="280" height="373" alt="{{alt}}" loading="lazy" decoding="async">
+        <strong class="growth__year">{{year}}</strong>
+        <span class="growth__height">{{height}}</span>
+      </li>
+      {{/each}}
+    </ol>
+    <p class="growth__note">{{product.growth.note}}</p>
+  </div>
+</section>
+
+<section class="pcomparepair">
+  <div class="container container--wide">
+    <figure class="beforeafter">
+      <img src="/assets/img/paulownia/un-an-six-ans.jpg" width="1080" height="506" alt="{{product.compare16.alt}}" loading="lazy" decoding="async">
+      <figcaption>{{product.compare16.caption}}</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="phow">
+  <div class="container container--wide phow__grid">
+    <div class="phow__media">
+      <picture>
+        <source type="image/webp" srcset="{{product.how.img}}-800.webp 800w, {{product.how.img}}-1400.webp 1400w" sizes="(min-width: 900px) 44vw, 100vw">
+        <img src="{{product.how.img}}-1400.jpg" srcset="{{product.how.img}}-800.jpg 800w, {{product.how.img}}-1400.jpg 1400w" sizes="(min-width: 900px) 44vw, 100vw" width="{{product.how.w}}" height="{{product.how.h}}" alt="{{product.how.alt}}" loading="lazy" decoding="async">
+      </picture>
+      {{#if product.how.caption}}<p class="phow__caption">{{product.how.caption}}</p>{{/if}}
+    </div>
+    <div class="phow__body">
+      <h2 class="section-title">{{product.how.title}}</h2>
+      <ol class="phow__steps">
+        {{#each product.how.steps}}<li class="phow__step">
+          <span class="phow__num" aria-hidden="true">{{@index1}}</span>
+          <div><strong>{{title}}</strong><p>{{text}}</p></div>
+        </li>
+        {{/each}}
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="fire">
+  <div class="container fire__grid">
+    <div class="fire__body">
+      <h2 class="section-title">{{product.fire.title}}</h2>
+      <p>{{product.fire.text}}</p>
+      <blockquote class="fire__quote"><p>{{product.fire.quote}}</p><cite>{{product.fire.cite}}</cite></blockquote>
+    </div>
+    <figure class="fire__media">
+      <img src="/assets/img/paulownia/tarascon.jpg" width="998" height="749" alt="{{product.fire.alt}}" loading="lazy" decoding="async">
+      <figcaption>{{product.fire.caption}}</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="pbenefits">
+  <div class="container">
+    <h2 class="section-title">{{product.markets.title}}</h2>
+    <ul class="pbenefits__grid">
+      {{#each product.markets.items}}<li class="pbenefit">
+        <span class="pbenefit__value">{{value}}</span>
+        <h3 class="pbenefit__title">{{title}}</h3>
+        <p>{{text}}</p>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>
+
+<section class="delivery">
+  <div class="container delivery__grid">
+    <div>
+      <h2 class="section-title">{{product.delivery.title}}</h2>
+      <p class="section-intro">{{product.delivery.intro}}</p>
+      <ul class="checklist">
+        {{#each product.delivery.items}}<li class="checklist__item"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+    <figure class="delivery__media">
+      <img src="/assets/img/paulownia/pepiniere.jpg" width="624" height="758" alt="{{product.delivery.alt}}" loading="lazy" decoding="async">
+      <figcaption>{{product.delivery.caption}}</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="system system--quotealt">
+  <div class="container">
+    <blockquote class="system__quote"><p>{{product.synergy}}</p></blockquote>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="container faq__grid">
+    <h2 class="section-title">{{product.faq.title}}</h2>
+    <div class="faq__list">
+      {{#each product.faq.items}}<details class="faq__item" name="faq">
+        <summary class="faq__q">{{q}}<svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+        <div class="faq__a"><p>{{a}}</p></div>
+      </details>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+{{> cta}}

@@ -1,0 +1,102 @@
+<section class="hero compare" data-hero style="--split:50%" aria-labelledby="hero-title">
+  <div class="compare__stage" data-compare-stage>
+    <picture class="compare__img compare__img--after">
+      <source type="image/webp" srcset="/assets/img/hero/green-960.webp 960w, /assets/img/hero/green-1440.webp 1440w, /assets/img/hero/green-2048.webp 2048w" sizes="100vw">
+      <img src="/assets/img/hero/green-1440.jpg" srcset="/assets/img/hero/green-960.jpg 960w, /assets/img/hero/green-1440.jpg 1440w, /assets/img/hero/green-2048.jpg 2048w" sizes="100vw" width="2048" height="1152" alt="{{home.hero.altGreen}}" fetchpriority="high" decoding="async">
+    </picture>
+    <picture class="compare__img compare__img--before">
+      <source type="image/webp" srcset="/assets/img/hero/dry-960.webp 960w, /assets/img/hero/dry-1440.webp 1440w, /assets/img/hero/dry-2048.webp 2048w" sizes="100vw">
+      <img src="/assets/img/hero/dry-1440.jpg" srcset="/assets/img/hero/dry-960.jpg 960w, /assets/img/hero/dry-1440.jpg 1440w, /assets/img/hero/dry-2048.jpg 2048w" sizes="100vw" width="2048" height="1152" alt="{{home.hero.altDry}}" fetchpriority="high" decoding="async">
+    </picture>
+    <div class="compare__scrim" aria-hidden="true"></div>
+    <div class="compare__line" aria-hidden="true"></div>
+    <div class="compare__handle" role="slider" tabindex="0" aria-label="{{home.hero.sliderLabel}}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" data-valuetext="{{home.hero.sliderValue}}" data-compare-handle>
+      <svg class="icon" aria-hidden="true"><use href="#i-arrows-h"/></svg>
+    </div>
+  </div>
+  <div class="hero__content container container--wide">
+    <h1 class="hero__title" id="hero-title">
+      <span class="hero__title-a">{{home.hero.titleA}}</span>
+      <span class="hero__title-b">{{home.hero.titleB}}</span>
+    </h1>
+    <div class="hero__below">
+      <p class="hero__lead">{{home.hero.lead}}</p>
+      <div class="hero__actions">
+        <a class="btn btn--light btn--lg" href="{{url '/contact/'}}">{{common.cta}}</a>
+        <a class="btn btn--ghost btn--lg" href="{{url '/solutions/'}}">{{common.discover}}</a>
+      </div>
+    </div>
+  </div>
+  <a class="hero__scroll" href="#chiffres"><span>{{common.scroll}}</span><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></a>
+</section>
+
+<section class="numbers" id="chiffres" aria-label="{{home.stats.label}}">
+  <div class="container">
+    <ul class="numbers__list" data-counters>
+      {{#each home.stats.items}}<li class="stat">
+        <span class="stat__value"><span class="stat__num" data-counter="{{value}}" data-prefix="{{prefix}}" data-suffix="{{suffix}}">{{prefix}}{{display}}{{suffix}}</span></span>
+        <span class="stat__label">{{label}}</span>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>
+
+<section class="problems" aria-labelledby="problems-title">
+  <div class="container">
+    <div class="section-head section-head--split">
+      <h2 class="section-title" id="problems-title">{{home.problems.title}}</h2>
+      <p class="section-intro">{{home.problems.intro}}</p>
+    </div>
+    <ul class="problems__grid">
+      {{#each home.problems.items}}<li class="problem">
+        <svg class="problem__icon icon icon--xl" aria-hidden="true"><use href="#i-{{icon}}"/></svg>
+        <h3 class="problem__title">{{title}}</h3>
+        <p class="problem__text">{{text}}</p>
+      </li>
+      {{/each}}
+    </ul>
+    <p class="problems__outro">{{home.problems.outro}}</p>
+  </div>
+</section>
+
+{{> families}}
+
+{{> system}}
+
+<section class="focus" aria-labelledby="focus-title">
+  <picture class="focus__media">
+    <source type="image/webp" srcset="/assets/img/home/paulownia-focus-1200.webp 1200w, /assets/img/home/paulownia-focus-2000.webp 2000w" sizes="100vw">
+    <img src="/assets/img/home/paulownia-focus-2000.jpg" srcset="/assets/img/home/paulownia-focus-1200.jpg 1200w, /assets/img/home/paulownia-focus-2000.jpg 2000w" sizes="100vw" width="2000" height="1125" alt="{{home.focus.alt}}" loading="lazy" decoding="async">
+  </picture>
+  <div class="container container--wide focus__layout">
+    <div class="focus__panel">
+      <p class="focus__kicker">PAULOWNIA ALTIFOLIA®</p>
+      <h2 class="focus__title" id="focus-title">{{home.focus.title}}</h2>
+      <p class="focus__text">{{home.focus.text}}</p>
+      <ul class="focus__stats">
+        {{#each home.focus.stats}}<li><strong>{{value}}</strong><span>{{label}}</span></li>
+        {{/each}}
+      </ul>
+      <a class="btn btn--primary" href="{{url '/paulownia/'}}">{{home.focus.button}}</a>
+    </div>
+  </div>
+</section>
+
+<section class="partners" aria-labelledby="partners-title">
+  <div class="container">
+    <div class="section-head section-head--split">
+      <h2 class="section-title" id="partners-title">{{home.partners.title}}</h2>
+      <p class="section-intro">{{home.partners.text}}</p>
+    </div>
+  </div>
+  <div class="marquee" data-marquee>
+    <ul class="marquee__track">
+      {{#each data.partners}}<li class="marquee__item"><img src="/assets/img/partners/{{slug}}.webp" alt="{{name}}" title="{{name}} — {{country}}" height="56" loading="lazy" decoding="async"></li>
+      {{/each}}
+    </ul>
+  </div>
+  <p class="partners__more container"><a class="link" href="{{url '/entreprise/'}}">{{home.partners.link}}</a></p>
+</section>
+
+{{> cta}}

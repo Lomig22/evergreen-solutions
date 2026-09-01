@@ -76,6 +76,8 @@ body.has-hero .site-header:not(.is-scrolled):not(.is-nav-open) .lang__list { col
 }
 @media (max-width: 899px) {
   .nav-toggle { display: inline-flex; }
+  /* la nav étant hors flux (fixed), on pousse le bouton menu tout au bord opposé au logo */
+  .site-header__tools { margin-inline-start: auto; }
   .site-nav { position: fixed; inset: var(--header-h) 0 0 0; z-index: 40; display: block; margin: 0; padding: var(--space-6) var(--gutter) var(--space-10); background: var(--forest); color: var(--white); overflow-y: auto; opacity: 0; visibility: hidden; transform: translateY(-8px); transition: opacity var(--t-panel) var(--ease), transform var(--t-panel) var(--ease), visibility 0s linear var(--t-panel); }
   .site-nav.is-open { opacity: 1; visibility: visible; transform: none; transition-delay: 0s; }
   /* backdrop-filter ferait du header le bloc conteneur du panneau fixed : on le retire quand le menu est ouvert */

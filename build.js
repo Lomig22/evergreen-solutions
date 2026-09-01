@@ -219,9 +219,19 @@ function build() {
 
   // langues disponibles = celles dont le JSON existe
   const wanted = args.langs ? String(args.langs).split(',') : site.langs.map((l) => l.code);
-  const langs = site.langs.filter((l) => wanted.includes(l.code) && exists(path.join(SRC, 'i18n', `${l.code}.json`)));
-  for (const w of wanted) if (!langs.find((l) => l.code === w)) warn(`langue ${w} ignorée : src/i18n/${w}.json introuvable`);
-  const base = readJSON(path.join(SRC, 'i18n', `${site.defaultLang}.json`));
+  // une langue n'est construite que si son JSON existe ET est valide : un fichier cassé ne doit jamais faire échouer le déploiement
+  const i18n = {};
+  const langs = site.langs.filter((l) => {
+    if (!wanted.includes(l.code)) return false;
+    const file = path.join(SRC, 'i18n', `${l.code}.json`);
+    if (!exists(file)) { warn(`langue ${l.code} ignorée : src/i18n/${l.code}.json introuvable`); return false; }
+    try { i18n[l.code] = readJSON(file); return true; }
+    catch (e) {
+      if (l.code === site.defaultLang) throw new Error(`src/i18n/${l.code}.json (langue source) est invalide : ${e.message}`);
+      warn(`langue ${l.code} ignorée : src/i18n/${l.code}.json invalide (${e.message})`); return false;
+    }
+  });
+  const base = i18n[site.defaultLang] || readJSON(path.join(SRC, 'i18n', `${site.defaultLang}.json`));
   // données partagées entre langues (src/data/*.json → ctx.data.<nom>)
   const data = {};
   const dataDir = path.join(SRC, 'data');
@@ -262,7 +272,7 @@ function build() {
 
   for (const lang of langs) {
     const missing = [];
-    const strings = lang.code === site.defaultLang ? base : mergeWithFallback(base, readJSON(path.join(SRC, 'i18n', `${lang.code}.json`)), '', missing);
+    const strings = lang.code === site.defaultLang ? base : mergeWithFallback(base, i18n[lang.code], '', missing);
     if (missing.length) warn(`${lang.code} : ${missing.length} clé(s) manquante(s), repli FR → ${missing.slice(0, 8).join(', ')}${missing.length > 8 ? '…' : ''}`);
     const prefix = prefixOf(lang.code);
     const env = {
